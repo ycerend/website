@@ -19,3 +19,5 @@ fdrtd is a modern framework for secure distributed computing:
 * usage: `gatsby new website https://github.com/fdrtd/website`
 
 ![license](https://img.shields.io/github/license/fdrtd/api)
+
+![netlify](https://img.shields.io/netlify/7f01c714-01c0-4aee-b5ef-443e768a3952)
