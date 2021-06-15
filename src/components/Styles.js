@@ -1,0 +1,456 @@
+import styled from "styled-components"
+
+export const DarkTheme = {
+    pageBackground: "#303030",
+    cardBackground: "#404040",
+    shadeBackground: "#505050",
+    highlightColor: "white",
+    emphasisColor: "white",
+    textColor: "#C0C0C0",
+    activeColor: "orange",
+    fdrtdColor: "orange",
+    id: "dark",
+    colors: {
+        greyButtonBackground: "#303030",
+        greyButtonText: "#C0C0C0",
+        greyButtonHoverBackground: "#202020",
+        greyButtonHoverText: "white",
+        activeButtonBackground: "orange",
+        activeButtonText: "black",
+        activeButtonHoverBackground: "darkorange",
+        activeButtonHoverText: "white"
+    }
+}
+
+export const LightTheme = {
+    pageBackground: "#EFEFEF",
+    cardBackground: "white",
+    shadeBackground: "#DFDFDF",
+    highlightColor: "black",
+    emphasisColor: "black",
+    textColor: "#404040",
+    activeColor: "darkorange",
+    fdrtdColor: "darkorange",
+    id: "light",
+    colors: {
+        greyButtonBackground: "#EFEFEF",
+        greyButtonText: "#404040",
+        greyButtonHoverBackground: "#DFDFDF",
+        greyButtonHoverText: "black",
+        activeButtonBackground: "orange",
+        activeButtonText: "black",
+        activeButtonHoverBackground: "darkorange",
+        activeButtonHoverText: "white"
+    }
+}
+
+export const HighContrastTheme = {
+    pageBackground: "white",
+    cardBackground: "white",
+    shadeBackground: "#888888",
+    highlightColor: "black",
+    emphasisColor: "black",
+    textColor: "black",
+    activeColor: "black",
+    fdrtdColor: "black",
+    id: "highcontrast",
+    colors: {
+        greyButtonBackground: "white",
+        greyButtonText: "#black",
+        greyButtonHoverBackground: "#white",
+        greyButtonHoverText: "black",
+        activeButtonBackground: "black",
+        activeButtonText: "white",
+        activeButtonHoverBackground: "black",
+        activeButtonHoverText: "white"
+    }
+}
+
+export const StyledPage = styled.div`
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    color: ${props => props.theme.textColor};
+    background-color: ${props => props.theme.pageBackground};
+    margin: 0;
+
+    h1, h2, h3, h4 {
+        font-style: normal;
+        font-weight: bold;
+        color: ${props => props.theme.highlightColor};
+    }
+
+    em {
+        font-style: normal;
+        font-weight: bold;
+        color: ${props => props.theme.emphasisColor};
+    }
+
+    a {
+        color: ${props => props.theme.textColor};
+    }
+    a:hover {
+        color: orange;
+    }
+`
+
+export const StyledContent = styled.div`
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+`
+
+export const StyledHeading = styled.h1`
+`
+
+export const StyledCard = styled.div`
+    margin: 2rem;
+    padding: 2rem 2rem;
+    border: 1px;
+    border-style: solid;
+    /*width: 800px;*/
+    background-color: ${props => props.theme.cardBackground};
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+`
+
+export const StyledTitle = styled.h2`
+    margin-top: 0;
+`
+
+export const StyledSection = styled.h3`
+    margin-top: 0;
+`
+
+export const StyledParagraph = styled.p`
+/*    text-align: justify;*/
+`
+
+export const StyledSubtitle = styled.div`
+    font-style: italic;
+`
+
+export const StyledList = styled.ul`
+`
+
+export const StyledItem = styled.li`
+`
+
+export const StyledLink = styled.a`
+`
+
+export const StyledThumbnailContainer = styled.div`
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
+export const StyledThumbnail = styled.img`
+    margin: 10px;
+    max-width: 130px;
+    max-height: 80px;
+`
+
+export const StyledColumns = styled.div`
+    display: grid;
+    grid-template-columns: repeat(${props => props.columns}, auto);
+    grid-gap: 2rem;
+    justify-content: space-between;
+`
+
+export const StyledCitationContainer = styled.div`
+`
+
+export const StyledCitationContent = styled.div`
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-align: justify;
+    font-style: italic;
+`
+
+export const StyledCitationSource = styled.div`
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: -0.75rem;
+    margin-bottom: 1.0rem;
+    /*text-align: center;*/
+    font-style: italic;
+    font-size: small;
+`
+
+export const StyledFdrtd = styled.span`
+    color: ${props => props.theme.fdrtdColor};
+    font-weight: ${props => props.theme.id === "highcontrast" ? "bold" : "normal"};
+`
+
+export const StyledFilename = styled.span`
+    background-color: ${props => props.theme.shadeBackground};
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: ${props => props.theme.highlightColor};
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+`
+
+export const StyledImageContainer = styled.div`
+    width: ${props => props.width};
+`
+
+export const StyledImage = styled.img`
+    width: ${props => props.width};
+`
+
+export const StyledImageCredit = styled.div`
+    width: ${props => props.width};
+    font-style: italic;
+    font-size: x-small;
+    margin-bottom: 1.0rem;
+`
+
+export const StyledFloat = styled.div`
+    width: ${props => props.width};
+    float: ${props => props.float};
+    padding: 2rem;
+`
+
+export const StyledButton = styled.div`
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+`
+
+export const StyledGreyButton = styled(StyledButton)`
+    background-color: ${props => props.theme.colors.greyButtonBackground};
+    color: ${props => props.theme.colors.greyButtonText};
+    a {
+        background-color: ${props => props.theme.colors.greyButtonBackground};
+        color: ${props => props.theme.colors.greyButtonText};
+    }
+    a:hover {
+        background-color: ${props => props.theme.colors.greyButtonBackground};
+        color: ${props => props.theme.colors.greyButtonHoverText};
+    }
+`
+
+export const StyledActiveButton = styled(StyledButton)`
+    background-color: ${props => props.theme.colors.activeButtonBackground};
+    color: ${props => props.theme.colors.activeButtonText};
+    a {
+        background-color: ${props => props.theme.colors.activeButtonBackground};
+        color: ${props => props.theme.colors.activeButtonText};
+    }
+    a:hover {
+        background-color: ${props => props.theme.colors.activeButtonBackground};
+        color: ${props => props.theme.colors.activeButtonHoverText};
+    }
+`
+
+export const MenuSection = styled.div`
+`
+
+export const MenuHeading = styled.div`
+    display: flex;
+    align-items: top;
+    cursor: pointer;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 1.5rem;
+
+    font-weight: bold;
+    color: ${(props) => props.theme.highlightColor};
+    a {
+        color: ${(props) => props.theme.highlightColor};
+        text-decoration: none;
+    }
+    a:hover {
+        color: ${(props) => props.theme.activeColor};
+        text-decoration: none;
+    }
+`
+
+export const MenuList = styled.ul`
+    font-weight: normal;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+`
+
+export const MenuItem = styled.li`
+    color: ${(props) => props.theme.textColor};
+    a {
+        color: ${(props) => props.theme.textColor};
+        text-decoration: none;
+    }
+    a:hover {
+        color: ${(props) => props.theme.activeColor};
+        text-decoration: none;
+    }
+`
+
+export const StyledNavbarContainer = styled.div`
+    font-size: small;
+    display: flex;
+    padding-left: 2rem;
+`
+
+export const StyledNavbarSection = styled.div`
+`
+
+export const StyledNavbarHeading = styled.div`
+    display: flex;
+    align-items: top;
+    cursor: pointer;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 1.5rem;
+
+    font-weight: bold;
+    color: ${(props) => props.theme.highlightColor};
+    a {
+        color: ${(props) => props.theme.highlightColor};
+        text-decoration: none;
+    }
+    a.hover {
+        color: ${(props) => props.theme.activeColor};
+        text-decoration: none;
+    }
+`
+
+export const StyledNavbarDropdown = styled.div`
+    top: 3rem;
+    position: absolute;
+    border: 1px;
+    border-color: ${(props) => props.theme.textColor};
+    border-style: solid;
+    margin: 0;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    visibility: ${(props) => props.animate === "open" ? "visible" : "hidden"};
+    background: ${(props) => props.theme.cardBackground};
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 2rem;
+`
+
+export const StyledFooterContainer = styled.div`
+    display: flex;
+    padding: 2rem 2rem;
+    border: 0px;
+    border-top: 1px;
+    border-color: ${props => props.theme.textColor};
+    border-style: dotted;
+`
+
+export const StyledFooterGrid = styled.div`
+    font-size: small;
+    display: grid;
+    @media (max-width: 800px) { grid-template-columns: repeat(2, auto) };
+    @media (min-width: 800px) and (max-width: 1500px) { grid-template-columns: repeat(4, auto) };
+    @media (min-width: 1500px) { grid-template-columns: repeat(8, auto) };
+    grid-gap: 3rem;
+    justify-content: space-between;
+`
+
+export const StyledFooterColumn = styled.div`
+`
+
+export const StyledToggleDark = styled.span`
+    color: ${props => props.theme.id === "dark" ? props.theme.activeColor : props.theme.textColor};
+    font-weight: ${props => props.theme.id === "dark" ? "bold" : "normal"};
+`
+
+export const StyledToggleLight = styled.span`
+    color: ${props => props.theme.id === "light" ? props.theme.activeColor : props.theme.textColor};
+    font-weight: ${props => props.theme.id === "light" ? "bold" : "normal"};
+`
+
+export const StyledToggleHighContrast = styled.span`
+    color: ${props => props.theme.id === "highcontrast" ? props.theme.activeColor : props.theme.textColor};
+    font-weight: ${props => props.theme.id === "highcontrast" ? "bold" : "normal"};
+`
+
+export const StyledToggleLanguage = styled.span`
+    color: ${props => props.currentLocale === props.language ? props.theme.activeColor : props.theme.textColor};
+    font-weight: ${props => props.currentLocale === props.language ? "bold" : "normal"};
+`
+
+export const StyledLogo = styled.img.attrs(
+    props => ({'src': props.theme.id === "dark" ? "/favicon-dark.png" : "/favicon-light.png"})
+)`
+    alt: "logo showing a stylized letter F for fdrtd";
+    width: 3rem;
+    height: 3rem;
+`
+
+export const StyledMenuSection = styled.div`
+`
+
+export const StyledMenuHeading = styled.div`
+    align-items: top;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 1.5rem;
+    font-weight: bold;
+    color: ${props => props.theme.highlightColor};
+    a {
+        color: ${props => props.theme.highlightColor};
+        text-decoration: none;
+    }
+    a.hover {
+        color: ${props => props.theme.activeColor};
+        text-decoration: none;
+    }
+`
+
+export const StyledMenuList = styled.ul`
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+`
+
+export const StyledMenuItem = styled.li`
+    font-weight: normal;
+    color: ${props => props.theme.textColor};
+    a {
+        color: ${props => props.theme.textColor};
+        text-decoration: none;
+    }
+    a.hover {
+        color: ${props => props.theme.activeColor};
+        text-decoration: none;
+    }
+    cursor: pointer;
+`
+
+export const StyledHeader = styled.div`
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+    background-color: ${props => props.theme.pageBackground};
+    border: 0px;
+    border-bottom: 1px;
+    border-color: ${props => props.theme.textColor};
+    border-style: dotted;
+`
+
+export const StyledHeaderContainer = styled.div`
+    display: flex;
+    padding: 1rem 2rem;
+`
+

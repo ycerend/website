@@ -1,0 +1,96 @@
+{
+    "title": "fdrtd - secure distributed computing",
+    
+    "404_not_found": "404 page not found",
+
+    "general_source": "source",
+    "general_imagecredit": "image credit",
+
+    "nav_why": "background",
+    "nav_how": "our technology",
+    "nav_what": "for developers",
+    
+    "nav_about": "about",
+    "nav_about_news": "news",
+    "nav_about_teaser": "executive summary",
+    "nav_about_story": "about us",
+    "nav_about_milestones": "milestones",
+    "nav_about_acknowledgements": "acknowledgements",
+    "nav_about_faq": "FAQ",
+
+    "nav_motivation": "motivation",
+    "nav_motivation_data": "the value of data",
+    "nav_motivation_privacy": "the value of privacy",
+    "nav_motivation_tradeoffs": "traditional tradeoffs",
+    "nav_motivation_cryptography": "cryptography",
+    "nav_motivation_challenges": "challenges",
+    "nav_motivation_designgoals": "design goals",
+
+    "nav_usecases": "use cases",
+    "nav_usecases_it": "IT & telecom",
+    "nav_usecases_healthcare": "health care",
+    "nav_usecases_retail": "retail & PoS",
+    "nav_usecases_finance": "finance",
+    "nav_usecases_energyutility": "energy & utility",
+    "nav_usecases_publicsector": "public sector",
+
+    "nav_technology": "federated secure computing",
+    "nav_technology_federation": "federation & separation",
+    "nav_technology_clientserver": "client & server architecture",
+    "nav_technology_microservices": "fast & lean microservices",
+    "nav_technology_platform": "platform & ecosystem",
+    "nav_technology_cloud": "ready for cloud & IoT",
+    "nav_technology_openapi": "OpenAPI 3.0 standard",
+
+    "nav_solution": "reference solution",
+    "nav_solution_fdrtd": "fdrtd & fdrtd server",
+    "nav_solution_protocols": "supported protocols",
+    "nav_solution_usecases": "supported use cases",
+    "nav_solution_features": "features & perks",
+    "nav_solution_plugandplay": "plug & play extensibility",
+    "nav_solution_foss": "free & open source",
+
+    "nav_clientside": "client-side development",
+    "nav_clientside_explanation": "explanation",
+    "nav_clientside_tutorials": "tutorials",
+    "nav_clientside_howto": "how-to guides",
+    "nav_clientside_reference": "reference",
+    "nav_clientside_library": "microservice library",
+    "nav_clientside_apibrowser": "API browser",
+
+    "nav_serverside": "server-side development",
+    "nav_serverside_explanation": "explanation",
+    "nav_serverside_tutorials": "tutorials",
+    "nav_serverside_howto": "how-to guides",
+    "nav_serverside_reference": "reference",
+    "nav_serverside_stub": "server stub",
+    "nav_serverside_devsecops": "dev-sec-ops",
+
+    "nav_resources": "resources",
+    "nav_resources_sourcecode": "source code",
+    "nav_resources_support": "support",
+    "nav_resources_community": "community",
+    "nav_resources_science": "science",
+    "nav_resources_styleguide": "styleguide",
+    "nav_resources_license": "license & contributions",
+
+    "nav_language_select": "language",
+    "nav_language_en": "English",
+    "nav_language_de": "German",
+
+    "nav_theme_select": "theme",
+    "nav_theme_dark": "dark mode",
+    "nav_theme_light": "day mode",
+    "nav_theme_highcontrast": "high contrast",
+
+    "nav_legal": "legal",
+    "nav_legal_privacy": "privacy",
+    "nav_legal_contact": "contact",
+
+    "home": "home",
+    "home_a": "welcome",
+    "home_a1": "<em>WHY // </em>we want to create awareness that digital collaboration is possible without data sharing through modern cryptography ('privacy preserving computation'). we want to help you leverage the full value of your data while retaining full control, ownership, and agency. we want to reduce barriers and empower everyone by removing the traditional overhead and complexity of integrating crypto with application development.",
+    "home_a2": "<em>HOW // </em>our innovative architecture <fdrtd>Federated Secure Computing</fdrtd> lets you easily design distributed application client-side, while offloading all of the difficult and computing intensive cryptography server-side. it is based on fast and lean microservices and is described by a Open API 3.0 standard. as a plug &amp; play open technology platform, it orchestrates various protocols with or without a central 3rd party (e.g. homomorphic encryption or secure multiparty computation).",
+    "home_a3": "<em>WHAT // </em>to get you jump started, we provide <fdrtd>fdrtd</fdrtd> (read: federated), a free and open source library. it runs just about anywhere, on premises, in the cloud or on the smallest IoT device. it lets you connect with your collaborators irrespective of their choice of operating system, programming language or technology stack. it provides simple reference implementations for various crypto protocols and application microservices.",
+    "home_a4": "<em>WHO // </em>this is about you. we want to empower everyone, be it institutions, corporations, or individuals, to build and run great distributed applications. we want to create a community of users and developers to exchange and learn. whether you want to protect your customers' data, shrink your attack surface, or design next-generation distributed apps, we are here to help you. we welcome your use cases, irrespective of industry and function, and help you create visible show cases. if you want to improve on our humble beginnings, we welcome you as a contributor of our open source project. join us."
+}

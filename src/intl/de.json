@@ -1,0 +1,72 @@
+{
+    "title": "fdrtd - sicheres verteiltes Rechnen",
+
+    "404_not_found": "404 Seite nicht gefunden",
+
+    "general_source": "Quelle",
+    "general_imagecredit": "Bildnachweis",
+
+    "nav_why": "Hintergrund",
+    "nav_how": "Unsere Technologie",
+    "nav_what": "for developers (English)",
+    
+    "nav_about": "Einstieg",
+    "nav_about_news": "Neuigkeiten",
+    "nav_about_teaser": "Executive Summary",
+    "nav_about_story": "Über uns",
+    "nav_about_milestones": "Meilensteine",
+    "nav_about_acknowledgements": "Danksagung",
+    "nav_about_faq": "FAQ",
+
+    "nav_motivation": "Motivation",
+    "nav_motivation_data": "Der Wert von Daten",
+    "nav_motivation_privacy": "Der Wert von Privacy",
+    "nav_motivation_tradeoffs": "Traditionelle Tradeoffs",
+    "nav_motivation_cryptography": "Kryptographie",
+    "nav_motivation_challenges": "Herausforderungen",
+    "nav_motivation_designgoals": "Design-Kriterien",
+
+    "nav_usecases": "Anwendungsfälle",
+    "nav_usecases_it": "IT & Telekommunikation",
+    "nav_usecases_healthcare": "Health Care",
+    "nav_usecases_retail": "Retail & PoS",
+    "nav_usecases_finance": "Finanzsektor",
+    "nav_usecases_energyutility": "Energie & Utility",
+    "nav_usecases_publicsector": "Öffentlicher Sektor",
+
+    "nav_technology": "Federated Secure Computing",
+    "nav_technology_federation": "Verknüpfen & Separieren",
+    "nav_technology_clientserver": "Client-Server-Architektur",
+    "nav_technology_microservices": "Schnelle & Schlanke Microservices",
+    "nav_technology_platform": "Plattform & Ökosystem",
+    "nav_technology_cloud": "Ready für Cloud & IoT",
+    "nav_technology_openapi": "OpenAPI 3.0 Standard",
+
+    "nav_solution": "Referenz-Lösung",
+    "nav_solution_fdrtd": "fdrtd & fdrtd Server",
+    "nav_solution_protocols": "Unterstützte Protokolle",
+    "nav_solution_usecases": "Abgebildete Use Cases",
+    "nav_solution_features": "Features & Vorteile",
+    "nav_solution_plugandplay": "Plug & Play Erweiterungen",
+    "nav_solution_foss": "Frei & Quelloffen",
+
+    "nav_language_select": "Sprache",
+    "nav_language_en": "Englisch",
+    "nav_language_de": "Deutsch",
+
+    "nav_theme_select": "Darstellung",
+    "nav_theme_dark": "dunkel",
+    "nav_theme_light": "hell",
+    "nav_theme_highcontrast": "kontrastreich",
+
+    "nav_legal": "Gesetzliche Hinweise",
+    "nav_legal_privacy": "Datenschutz",
+    "nav_legal_contact": "Impressum",
+
+    "home": "Startseite",
+    "home_a": "Willkommen",
+    "home_a1": "<em>WHY // </em>Wir wollen Awareness schaffen, dass digitale Zusammenarbeit auch ohne Austausch von Daten möglich ist, mittels moderner Kryptographie ('privacy preserving computation'). Wir wollen Ihnen helfen, den maximalen Wert Ihrer Daten zu heben und gleichzeitig die volle Kontrolle, Besitz und Handlungshoheit zu bewahren. Wir möchten Eintrittsbarrieren abbauen und allen ermöglichen, diese Technologien zu nutzen, indem wir die Schwierigkeiten und die Komplexität beseitigen, die bisher mit der Integration von Kryptographie in die Anwendungsentwicklung einherging.",
+    "home_a2": "<em>HOW // </em>Unsere innovative Architektur <fdrtd>Federated Secure Computing</fdrtd> lässt sie auf einfache Weise verteilte Anwendungen klientenseitig entwickeln, während die gesamte komplexe und rechenaufwändige Kryptographie serverseitig ausgelagert wird. Die Architektur basiert auf schnellen und schlanken Microservices und wird durch einen Open API 3.0 Standard beschrieben. Als eine plug &amp; und technologieoffene Platform, orchestriert sie verschiedene Protokolle mit und ohne zentrale Instanz (z.B. Homomorphic Encryption oder Secure Multiparty Computation).",
+    "home_a3": "<em>WHAT // </em>Um Ihnen einen schnellen Start zu ermöglichen, stellen wir <fdrtd>fdrtd</fdrtd> (lies: federated) bereit, eine freie und quelloffene Bibliothek. Sie läuft nahezu überall, on premises, in der Cloud und auf dem kleinsten IoT Device. Mit ihr können sie sich mit Ihren Kooperationspartnern vernetzen unabhängig von deren Wahl eines Betriebssystems, einer Programmiersprache oder eines Technologie-Stacks. Die Bibliothek stellt einfache Referenz-Implementierungen einiger Kryptographie-Protokoller und Anwendungs-Microservices bereit.",
+    "home_a4": "<em>WHO // </em>Ihr Interesse steht im Mittelpunkt. Wir wollen alle, seien es Institutionen, Unternehmen oder Privatleute, in die Lage versetzen, großartige verteilte Anwendungen zu entwickeln. Wir wollen eine Community von Anwenderinnen und Entwickerinnen schaffen, um sich auszutauschen und voneinander zu lernen. Ob Sie die Daten Ihrer Kunden schützen wollen, Ihre Attack Surface verringern wollen, oder die verteilten Anwendungen der nächsten Generation designen, wir sind hier um zu helfen. Wir freuen uns über Ihre Anwendungsfälle, unabhängig von Industrie und Funktion, und wir möchten Ihnen helfen, sichtbare Show Cases zu schaffen. Wenn Sie unsere bescheidenen Anfänge vorranbringen können, dann begrüßen wir Sie als Kontributorinnen unseres Open Source Projektes. Machen Sie mit."
+}
