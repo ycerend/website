@@ -106,6 +106,14 @@
     "resources_license_b4": "this widely-accepted norm in the open source community reflects what both contributors and users of an open source project will expect and assume. the advantage to you, the contributor, is that the project does not need to burden you with paperwork and separate contributor license agreements (CLAs) or even copyright transfer agreements (CTAs).",
     "resources_license_b5": "note that while you grant a license to use your contribution, you do not sign away copyright, but in fact retain full copyright for your own contribution. if you want to expressively assert your copyright by being listed in the project's <filename>CONTRIBUTORS</filename> files, please include an edit to this effect with your pull request.",
 
+    "resources_support": "support",
+    "resources_support_a": "on GitHub",
+    "resources_support_a1": "something not working as expected? some great feature missing? found a bug?",
+    "resources_support_a2": "the best way to make the coding team aware is to create an issue on GitHub. everyone will be on board, and your suggestion can be discussed. even better, you and others can directly contribute to the code. creating an issue is the preferred way before sending a pull request.",
+    "resources_support_b": "by email",
+    "resources_support_b1": "need help with an on-premises installation? thinking about a new use case?",
+    "resources_support_b2": "if your question or problem does not concern everyone on the project, then the best way to get individual support is to send an email. our team is here to help, and you will usually get a response within 24 hours.",
+
     "legal_privacy_heading": "privacy policy",
     "legal_privacy_a": "personal data",
     "legal_privacy_a1": "Personal data (usually referred to just as “data” below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.",
