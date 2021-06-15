@@ -94,6 +94,18 @@
     "home_a3": "<em>WHAT // </em>to get you jump started, we provide <fdrtd>fdrtd</fdrtd> (read: federated), a free and open source library. it runs just about anywhere, on premises, in the cloud or on the smallest IoT device. it lets you connect with your collaborators irrespective of their choice of operating system, programming language or technology stack. it provides simple reference implementations for various crypto protocols and application microservices.",
     "home_a4": "<em>WHO // </em>this is about you. we want to empower everyone, be it institutions, corporations, or individuals, to build and run great distributed applications. we want to create a community of users and developers to exchange and learn. whether you want to protect your customers' data, shrink your attack surface, or design next-generation distributed apps, we are here to help you. we welcome your use cases, irrespective of industry and function, and help you create visible show cases. if you want to improve on our humble beginnings, we welcome you as a contributor of our open source project. join us.",
 
+    "resources_license": "license & contributions",
+    "resources_license_a": "license",
+    "resources_license_a1": "<fdrtd>fdrtd</fdrtd> is free and open source software.",
+    "resources_license_a2": "this extends to the repositories located at <elink>https://github.com/fdrtd§https://github.com/fdrtd</elink>.",
+    "resources_license_a3": "an appropriate <elink>https://opensource.org/licenses/MIT§MIT license</elink> is included in a <filename>LICENSE</filename> file in the root directory of all of these repositories.",
+    "resources_license_b": "contributions",
+    "resources_license_b1": "the project accepts contributions exclusively through <elink>https://github.com§GitHub</elink>. as per their terms of service,",
+    "resources_license_b2": "<elink>https://docs.github.com/en/github/site-policy/github-terms-of-service#6-contributions-under-repository-license§GitHub   terms of service</elink>",
+    "resources_license_b3": "'Whenever you add Content to a repository containing notice of a license, you license that Content under the same terms, and you agree that you have the right to license that Content under those terms.'",
+    "resources_license_b4": "this widely-accepted norm in the open source community reflects what both contributors and users of an open source project will expect and assume. the advantage to you, the contributor, is that the project does not need to burden you with paperwork and separate contributor license agreements (CLAs) or even copyright transfer agreements (CTAs).",
+    "resources_license_b5": "note that while you grant a license to use your contribution, you do not sign away copyright, but in fact retain full copyright for your own contribution. if you want to expressively assert your copyright by being listed in the project's <filename>CONTRIBUTORS</filename> files, please include an edit to this effect with your pull request.",
+
     "legal_privacy_heading": "privacy policy",
     "legal_privacy_a": "personal data",
     "legal_privacy_a1": "Personal data (usually referred to just as “data” below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.",
