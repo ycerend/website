@@ -131,5 +131,21 @@
     "legal_privacy_d10": "If you contact us via email or the contact form, the data you provide will be used for the purpose of processing your request. We must have this data in order to process and answer your inquiry; otherwise we will not be able to answer it in full or at all.",
     "legal_privacy_d11": "The legal basis for this data processing is Art. 6 Para. 1 lit. b) GDPR.",
     "legal_privacy_d12": "Your data will be deleted once we have fully answered your inquiry and there is no further legal obligation to store your data, such as if an order or contract resulted therefrom.",
-    "legal_privacy_footer": "this privacy policy was derived from the <elink>https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html§Model Data Protection Statement</elink> by <elink>https://www.ratgeberrecht.eu/datenschutz/datenschutzerklaerung-generator-dsgvo.html§Anwaltskanzlei Weiß & Partner</elink>"   
+    "legal_privacy_footer": "this privacy policy was derived from the <elink>https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html§Model Data Protection Statement</elink> by <elink>https://www.ratgeberrecht.eu/datenschutz/datenschutzerklaerung-generator-dsgvo.html§Anwaltskanzlei Weiß & Partner</elink>",
+
+    "legal_contact_heading": "contact",
+    "legal_contact_a": "information as per German Telemedia Act section 5",
+    "legal_contact_a1": "bytes for life GmbH",
+    "legal_contact_a2": "Kaulbachstrasse 61a",
+    "legal_contact_a3": "80539 Munich",
+    "legal_contact_a4": "Germany",
+    "legal_contact_a5": "phone: +49 – 176 – 38 23 92 81",
+    "legal_contact_a6": "email: <elink>mailto:mail@bytesforlife.com§mail@bytesforlife.com</elink>",
+    "legal_contact_a7": "website: <elink>https://www.bytesforlife.com§www.bytesforlife.com</elink>",
+    "legal_contact_a8": "registry court, registry number",
+    "legal_contact_a9": "District Court Munich, HRB 262175",
+    "legal_contact_a10": "managing director",
+    "legal_contact_a11": "Dr. Hendrik Ballhausen",
+    "legal_contact_a12": "sales tax ID",
+    "legal_contact_a13": "DE 338 44 66 35"
 }

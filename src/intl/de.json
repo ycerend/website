@@ -109,5 +109,21 @@
     "legal_privacy_d12": "Ihre Daten werden gelöscht, sofern Ihre Anfrage abschließend beantwortet worden ist und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen, wie bspw. bei einer sich etwaig anschließenden Vertragsabwicklung.",
     "legal_privacy_footer": "Diese Datenschutzerklärung beruht auf der Muster-Datenschutzerklärung der Anwaltskanzlei Weiß & Partner",
     "legal_privacy_footer1": "Muster-Datenschutzerklärung",
-    "legal_privacy_footer2": "Anwaltskanzlei Weiß & Partner"
+    "legal_privacy_footer2": "Anwaltskanzlei Weiß & Partner",
+
+    "legal_contact_heading": "Impressum",
+    "legal_contact_a": "Angaben gemäß §5 Telemediengesetz",
+    "legal_contact_a1": "bytes for life GmbH",
+    "legal_contact_a2": "Kaulbachstraße 61a",
+    "legal_contact_a3": "80539 München",
+    "legal_contact_a4": "Deutschland",
+    "legal_contact_a5": "Telefon: 0176 – 38 23 92 81",
+    "legal_contact_a6": "E-Mail:",
+    "legal_contact_a7": "Internetauftritt:",
+    "legal_contact_a8": "Registergericht, Registernummer",
+    "legal_contact_a9": "Amtsgericht München, HRB 262175",
+    "legal_contact_a10": "Vertretungsberechtigter Geschäftsführer",
+    "legal_contact_a11": "Dr. Hendrik Ballhausen",
+    "legal_contact_a12": "Umsatzsteuer-Identifikationsnummer §27 UStG",
+    "legal_contact_a13": "DE 338 44 66 35"
 }
