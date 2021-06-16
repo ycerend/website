@@ -20,8 +20,10 @@ fdrtd is a modern framework for secure distributed computing:
 
 ![license](https://img.shields.io/github/license/fdrtd/api)
 
-![netlify](https://img.shields.io/netlify/7f01c714-01c0-4aee-b5ef-443e768a3952)
-
-![linesofcode](https://img.shields.io/tokei/lines/github/fdrtd/website)
-
 ![lastupdated](https://img.shields.io/github/last-commit/fdrtd/website)
+![linesofcode](https://img.shields.io/tokei/lines/github/fdrtd/website)
+![contributors](https://img.shields.io/github/contributors/fdrtd/website)
+
+![issues](https://img.shields.io/github/issues/fdrtd/website)
+![netlify](https://img.shields.io/netlify/7f01c714-01c0-4aee-b5ef-443e768a3952)
+![online](https://img.shields.io/website?url=https%3A%2F%2Fwww.fdrtd.com)
