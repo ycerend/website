@@ -12,9 +12,9 @@
     
     "nav_about": "about",
     "nav_about_news": "news",
-    "nav_about_teaser": "executive summary",
-    "nav_about_story": "about us",
+    "nav_about_pitch": "pitch",
     "nav_about_milestones": "milestones",
+    "nav_about_onboarding": "how to contribute",
     "nav_about_acknowledgements": "acknowledgements",
     "nav_about_faq": "FAQ",
 

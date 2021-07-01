@@ -4,16 +4,16 @@ const itemsAbout = [
         link_url: "/about/news",
     },
     {
-        text_id: "nav_about_teaser",
-        link_url: "/about/teaser",
-    },
-    {
-        text_id: "nav_about_story",
-        link_url: "/about/story",
+        text_id: "nav_about_pitch",
+        link_url: "/about/pitch",
     },
     {
         text_id: "nav_about_milestones",
         link_url: "/about/milestones"
+    },
+    {
+        text_id: "nav_about_onboarding",
+        link_url: "/about/onboarding",
     },
     {
         text_id: "nav_about_acknowledgements",
@@ -161,27 +161,27 @@ const sectionSolution = {
 const itemsDevClient = [
     {
         text_id: "nav_clientside_explanation",
-        link_url: "/clientside/explanation"
+        link_url: "/docs/clientside/explanation"
     },
     {
         text_id: "nav_clientside_tutorials",
-        link_url: "/clientside/tutorials"
+        link_url: "/docs/clientside/tutorials"
     },
     {
         text_id: "nav_clientside_howto",
-        link_url: "/clientside/howto"
+        link_url: "/docs/clientside/howto"
     },
     {
         text_id: "nav_clientside_reference",
-        link_url: "/clientside/reference"
+        link_url: "/docs/clientside/reference"
     },
     {
         text_id: "nav_clientside_library",
-        link_url: "/clientside/library"
+        link_url: "/docs/clientside/library"
     },
     {
         text_id: "nav_clientside_apibrowser",
-        link_url: "/clientside/apibrowser"
+        link_url: "/docs/clientside/apibrowser"
     }
 ]
 
@@ -193,27 +193,27 @@ const sectionClientside = {
 const itemsDevServer = [
     {
         text_id: "nav_serverside_explanation",
-        link_url: "/serverside/explanation"
+        link_url: "/docs/serverside/explanation"
     },
     {
         text_id: "nav_serverside_tutorials",
-        link_url: "/serverside/tutorials"
+        link_url: "/docs/serverside/tutorials"
     },
     {
         text_id: "nav_serverside_howto",
-        link_url: "/serverside/howto"
+        link_url: "/docs/serverside/howto"
     },
     {
         text_id: "nav_serverside_reference",
-        link_url: "/serverside/reference"
+        link_url: "/docs/serverside/reference"
     },
     {
         text_id: "nav_serverside_stub",
-        link_url: "/serverside/stub"
+        link_url: "/docs/serverside/stub"
     },
     {
         text_id: "nav_serverside_devsecops",
-        link_url: "/serverside/devsecops"
+        link_url: "/docs/serverside/devsecops"
     }
 ]
 
