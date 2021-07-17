@@ -2,14 +2,14 @@ import React from "react"
 import { Link as IntlLink } from "gatsby-plugin-intl"
 
 import Layout from "./Layout"
-import { StyledHeading, StyledCard, StyledTitle, StyledSubtitle, StyledSection, StyledParagraph, StyledList, StyledItem, StyledLink, StyledThumbnailContainer, StyledThumbnail, StyledColumns, StyledCitationContainer, StyledCitationContent, StyledCitationSource, StyledFdrtd, StyledFilename, StyledImage, StyledImageContainer, StyledImageCredit, StyledButton, StyledGreyButton, StyledActiveButton, StyledFloat } from "./Styles"
+import { StyledHeading, StyledCard, StyledTitle, StyledSubtitle, StyledSection, StyledParagraph, StyledList, StyledItem, StyledLink, StyledThumbnailContainer, StyledThumbnail, StyledColumns, StyledCitationContainer, StyledCitationContent, StyledCitationSource, StyledFdrtd, StyledFilename, StyledImage, StyledImageContainer, StyledImageCredit, StyledButton, StyledGreyButton, StyledActiveButton, StyledFloat, StyledFigureContainer, StyledFigureContent, StyledFigureCaption, StyledFigureBox, StyledFigureRect, StyledFigureText, StyledCode } from "./Styles"
 import Translation from "./Translation"
 
 export function Page(props) {
     return (
         <Layout>
             <StyledHeading>
-                <Translation id={props.id} />
+                {props.id ? <Translation id={props.id} /> : props.text}
             </StyledHeading>
             {props.children}
         </Layout>
@@ -19,8 +19,9 @@ export function Page(props) {
 export function Card(props) {
     return (
         <StyledCard>
+            {props.heading ? <StyledSubtitle><Translation id={props.heading} /></StyledSubtitle> : ""}
             <StyledTitle>
-                <Translation id={props.id} />
+                {props.id ? <Translation id={props.id} /> : props.text}
             </StyledTitle>
             {props.children}
         </StyledCard>
@@ -31,7 +32,7 @@ export function Section(props) {
     return (
         <div>
             <StyledSection>
-                <Translation id={props.id} />
+                {props.id ? <Translation id={props.id} /> : props.text}
             </StyledSection>
             {props.children}
         </div>
@@ -41,7 +42,7 @@ export function Section(props) {
 export function Paragraph(props) {
     return (
         <StyledParagraph>
-            <Translation id={props.id} />
+            {props.id ? <Translation id={props.id} /> : props.text}
             {props.children}
         </StyledParagraph>
     )
@@ -50,7 +51,7 @@ export function Paragraph(props) {
 export function Subtitle(props) {
     return (
         <StyledSubtitle>
-            <Translation id={props.id} />
+            {props.id ? <Translation id={props.id} /> : props.text}
             {props.children}
         </StyledSubtitle>
     )
@@ -59,7 +60,7 @@ export function Subtitle(props) {
 export function Line(props) {
     return (
         <span>
-            <Translation id={props.id} />
+            {props.id ? <Translation id={props.id} /> : props.text}
             {props.children}    
         </span>
     )
@@ -76,7 +77,7 @@ export function List(props) {
 export function Item(props) {
     return (
         <StyledItem>
-            <Translation id={props.id} />
+            {props.id ? <Translation id={props.id} /> : props.text}
             {props.children}
         </StyledItem>
     )
@@ -190,3 +191,70 @@ export function ActiveButton(props) {
     )
 }
 
+export function Figure(props) {
+    return (
+        <StyledFigureContainer>
+            <StyledFigureContent width={props.width} height={props.height}>
+                {props.children}
+            </StyledFigureContent>
+            <StyledFigureCaption>
+                {props.caption}
+            </StyledFigureCaption>
+        </StyledFigureContainer>
+    )
+}
+
+export function FigureBox(props)
+{
+    return(
+        <StyledFigureBox x={props.x} y={props.y} w={props.w} h={props.h}>
+            {props.children}
+        </StyledFigureBox>
+    )
+}
+
+export function FigureRect(props)
+{
+    return(
+        <StyledFigureRect x={props.x} y={props.y} w={props.w} h={props.h}>
+            {props.children}
+        </StyledFigureRect>
+    )
+}
+
+export function FigureText(props)
+{
+    return(
+        <StyledFigureText x={props.x} y={props.y} w={props.w} h={props.h}>
+            {props.children}
+        </StyledFigureText>
+    )
+}
+
+export function Code(props)
+{
+    return(
+        <StyledCode>
+            {props.children}
+        </StyledCode>
+    )
+}
+
+export function Red(props)
+{
+    return(
+        <span style={{color: "red"}}>
+            {props.children}
+        </span>
+    )
+}
+
+
+export function Green(props)
+{
+    return(
+        <span style={{color: "green"}}>
+            {props.children}
+        </span>
+    )
+}

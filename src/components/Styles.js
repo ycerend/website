@@ -4,6 +4,9 @@ export const DarkTheme = {
     pageBackground: "#303030",
     cardBackground: "#404040",
     shadeBackground: "#505050",
+    figureBackground: "#303030",
+    boxColor: "white",
+    boxBackground: "#505050",
     highlightColor: "white",
     emphasisColor: "white",
     textColor: "#C0C0C0",
@@ -26,6 +29,9 @@ export const LightTheme = {
     pageBackground: "#EFEFEF",
     cardBackground: "white",
     shadeBackground: "#DFDFDF",
+    figureBackground: "white",
+    boxColor: "black",
+    boxBackground: "#DFDFDF",
     highlightColor: "black",
     emphasisColor: "black",
     textColor: "#404040",
@@ -48,6 +54,9 @@ export const HighContrastTheme = {
     pageBackground: "white",
     cardBackground: "white",
     shadeBackground: "#888888",
+    figureBackground: "white",
+    boxColor: "white",
+    boxBackground: "black",
     highlightColor: "black",
     emphasisColor: "black",
     textColor: "black",
@@ -84,8 +93,9 @@ export const StyledPage = styled.div`
         color: ${props => props.theme.emphasisColor};
     }
 
+
     a {
-        color: ${props => props.theme.textColor};
+        color: ${props => props.theme.highlightColor};
     }
     a:hover {
         color: orange;
@@ -186,6 +196,16 @@ export const StyledFdrtd = styled.span`
 `
 
 export const StyledFilename = styled.span`
+    background-color: ${props => props.theme.shadeBackground};
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: ${props => props.theme.highlightColor};
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+`
+
+export const StyledCode = styled.span`
     background-color: ${props => props.theme.shadeBackground};
     border-radius: 0.2rem;
     border-style: solid;
@@ -452,5 +472,68 @@ export const StyledHeader = styled.div`
 export const StyledHeaderContainer = styled.div`
     display: flex;
     padding: 1rem 2rem;
+`
+
+export const StyledFigureContent = styled.div`
+    width: ${props => props.width};
+    height: ${props => props.height};
+    border: 1px;
+    border-style: solid;
+    padding: 2em;
+    background-color: ${props => props.theme.figureBackground};
+`
+
+export const StyledFigureContainer = styled.div`
+    position: relative;
+    width: ${props => props.width};
+    height: ${props => props.height};
+`
+
+export const StyledFigureCaption = styled.div`
+    font-style: italic;
+    margin-bottom: 1.0rem;
+`
+
+export const StyledFigureBox = styled.div`
+    border: 1px;
+    border-style: solid;
+    position: absolute;
+    left: ${props => props.x};
+    top: ${props => props.y};
+    width: ${props => props.w};
+    height: ${props => props.h};
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ${props => props.theme.boxBackground};
+    color: ${props => props.theme.boxColor};
+`
+
+export const StyledFigureRect = styled.div`
+    border: 1px;
+    border-style: dashed;
+    position: absolute;
+    left: ${props => props.x};
+    top: ${props => props.y};
+    width: ${props => props.w};
+    height: ${props => props.h};
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    color: ${props => props.theme.textColor};
+    padding: 1em;
+    font-weight: bold;
+`
+
+export const StyledFigureText = styled.div`
+    position: absolute;
+    left: ${props => props.x};
+    top: ${props => props.y};
+    width: ${props => props.w};
+    height: ${props => props.h};
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ${props => props.theme.highlightColor};
 `
 
