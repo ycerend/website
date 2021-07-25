@@ -1,21 +1,22 @@
 import React from "react"
 
-import { Page, Card, Paragraph, Image,ExternalLink, GreyButton, Float } from "../components/Elements"
+import { Page, Card, Paragraph, Image, List, Item, Floa, Columns } from "/src/components/Elements"
 
-export default function Home() {
+export default function Layout() {
     return (
-        <Page id="home">
-            <Card id="home_a">
-                <Float float="right" width="33%">
-                    <Image src="/adam-solomon-WHUDOzd5IYU-unsplash.png" credit="Adam Solomon / Unsplash"/>
-                </Float>
-                <Paragraph id="home_a1" />
-                <Paragraph id="home_a2" />
-                <Paragraph id="home_a3" />
-                <Paragraph id="home_a4" />
-                <GreyButton>
-                    <ExternalLink url="mailto:support@fdrtd.com" text="support@fdrtd.com" />
-                </GreyButton>
+        <Page id="welcome">
+            <Card id="elevatorpitch">
+                <Columns columns="2">
+                    <div>
+                        <Paragraph id="elevatorpitch_why" />
+                        <Paragraph id="elevatorpitch_how" />
+                        <Paragraph id="elevatorpitch_what" />
+                        <Paragraph id="elevatorpitch_who" />
+                    </div>
+                    <div style={{padding: "2em"}}>
+                        <Image src="/adam-solomon-WHUDOzd5IYU-unsplash.png" credit="Adam Solomon / Unsplash" height="400"/>
+                    </div>
+                </Columns>
             </Card>
         </Page>
     )

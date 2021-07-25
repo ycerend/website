@@ -1,21 +1,20 @@
 import React from "react"
 import { useState, useEffect, createRef } from "react"
-import { BiWorld } from "react-icons/bi"
+import { BiWorld, BiSun } from "react-icons/bi"
 import { MdExpandMore } from "react-icons/md"
   
-import { InternalLink } from "./Elements"
+import { InternalLink, ExternalLink } from "./Elements"
 import { StyledNavbarContainer, StyledNavbarSection, StyledNavbarHeading, StyledNavbarDropdown } from "./Styles"
 import { MenuSection, MenuHeading, MenuList, MenuItem } from "./Menu"
 import MenuLanguage from "./MenuLanguage"
 import MenuTheme from "./MenuTheme"
-import MenuLegal from "./MenuLegal"
 import Translation from "./Translation"
 
-import { navigationHeader } from "../data/navigation"
+import { sectionUsers, sectionContributors, sectionSolution, sectionSupporters, sectionTechnology, sectionProject } from "/src/data/navigation"
 
 const NavbarIcon = (props) => {
     return(
-        <MdExpandMore size="24" style={{transform: props.isOpen ? "rotate(180deg)" : ""}}/>
+        <MdExpandMore size="24" style={{position: 'relative', left: '-0.4em', transform: props.isOpen ? "rotate(180deg)" : ""}}/>
     )
 }
 
@@ -49,9 +48,10 @@ const NavDropdown = (props) => {
 
     return (
         <StyledNavbarSection ref={ref}>
-            <StyledNavbarHeading onClick={() => setIsOpen(!isOpen)} onKeyDown={onKeyDownHandler} tabIndex="0">
+            <StyledNavbarHeading onClick={() => setIsOpen(!isOpen)} onKeyDown={onKeyDownHandler} tabIndex="0" style={props.style}>
                 {props.toggle}
-                <NavbarIcon isOpen={isOpen} />
+                {/*<div>{props.toggle}</div>
+                <NavbarIcon isOpen={isOpen} />*/}
                 <StyledNavbarDropdown animate={isOpen ? "open" : "closed"} initial="closed">
                     {props.children}
                 </StyledNavbarDropdown>
@@ -60,31 +60,64 @@ const NavDropdown = (props) => {
     )
 }
 
+const NavDropDownMultiple = (props) => {
+    return (
+        <NavDropdown toggle={<Translation id={props.sections.text_id} key={props.sections.idx} />}>
+            {props.sections.children.map((section, idx) => (
+                <MenuSection key={idx}>
+                    <MenuHeading>
+                        <Translation id={section.text_id} />
+                        {/* <InternalLink url={section.link_url} id={section.text_id} /> */}
+                    </MenuHeading>
+                    <MenuList>
+                        {section.children.map((item, idx) => (
+                            <MenuItem key={idx}>
+                                <InternalLink url={item.link_url} id={item.text_id} />
+                            </MenuItem>
+                        ))}
+                    </MenuList>
+                </MenuSection>
+            ))}
+        </NavDropdown>
+    )
+}
+
+const NavDropDownSingle = (props) => {
+    return (
+        <NavDropdown toggle={<Translation id={props.section.text_id} key={props.section.idx} />}>
+            <MenuSection key={props.section.idx}>
+                <MenuList>
+                    {props.section.children.map((item, idx) => (
+                        <MenuItem key={idx}>
+                            <InternalLink url={item.link_url} id={item.text_id} />
+                        </MenuItem>
+                    ))}
+                </MenuList>
+            </MenuSection>
+        </NavDropdown>
+    )
+}
+
 export default function Navbar(props) {
     return (
         <StyledNavbarContainer>
-            {navigationHeader.map((sections, idx) => (
-                <NavDropdown toggle={<Translation id={sections.text_id} key={idx} />}>
-                    {sections.children.map((section, idx) => (
-                        <MenuSection key={idx}>
-                            <MenuHeading>
-                                <Translation id={section.text_id} />
-                            </MenuHeading>
-                            <MenuList>
-                                {section.children.map((item, idx) => (
-                                    <MenuItem key={idx}>
-                                        <InternalLink url={item.link_url} id={item.text_id} />
-                                    </MenuItem>
-                                ))}
-                            </MenuList>
-                        </MenuSection>
-                    ))}
-                </NavDropdown>
-            ))}
-            <NavDropdown toggle={<BiWorld size={20}/>}>
+            <NavDropDownSingle section={sectionUsers} />
+            <NavDropDownSingle section={sectionSupporters} />
+            <NavDropDownSingle section={sectionContributors} />
+            <NavDropDownSingle section={sectionTechnology} />
+            <NavDropDownSingle section={sectionSolution} />
+            <NavDropDownSingle section={sectionProject} />
+            <MenuHeading style={{marginRight: "2.5em"}}>
+                <InternalLink url="/docs" id="nav_docs" />
+            </MenuHeading>
+            <MenuHeading style={{marginRight: "2.5em"}}>
+                <ExternalLink url="https://github.com/fdrtd" target="_new" id="nav_github" />
+            </MenuHeading>
+            <NavDropdown toggle={<BiWorld size={20}/>} style={{paddingRight: "0.5em"}}>
                 <MenuLanguage />
+            </NavDropdown>
+            <NavDropdown toggle={<BiSun size={20}/>} style={{paddingRight: "0"}}>
                 <MenuTheme setTheme={props.setTheme} />
-                <MenuLegal />
             </NavDropdown>
         </StyledNavbarContainer>
     )

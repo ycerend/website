@@ -1,103 +1,110 @@
-const itemsAbout = [
+const itemsUsers = [
     {
-        text_id: "nav_about_news",
-        link_url: "/about/news",
+        text_id: "nav_users_benefit",
+        link_url: "/users/benefit"
     },
     {
-        text_id: "nav_about_pitch",
-        link_url: "/about/pitch",
+        text_id: "nav_users_journey",
+        link_url: "/users/journey"
     },
     {
-        text_id: "nav_about_milestones",
-        link_url: "/about/milestones"
+        text_id: "nav_users_usecases",
+        link_url: "/users/usecases"
     },
     {
-        text_id: "nav_about_onboarding",
-        link_url: "/about/onboarding",
+        text_id: "nav_users_solutions",
+        link_url: "/users/solutions"
     },
     {
-        text_id: "nav_about_acknowledgements",
-        link_url: "/about/acknowledgements"
+        text_id: "nav_users_support",
+        link_url: "/users/support"
     },
     {
-        text_id: "nav_about_faq",
-        link_url: "/about/faq"
+        text_id: "nav_users_start",
+        link_url: "/users/start"
     }
 ]
 
-const sectionAbout = {
-    text_id: "nav_about",
-    children: itemsAbout
+export const sectionUsers = {
+    text_id: "nav_users",
+    link_url: "/users",
+    children: itemsUsers
 }
 
-const itemsMotivation = [
+const itemsSupporters = [
     {
-        text_id: "nav_motivation_data",
-        link_url: "/motivation/data"
+        text_id: "nav_supporters_opportunity",
+        link_url: "/supporters/opportunity"
     },
     {
-        text_id: "nav_motivation_privacy",
-        link_url: "/motivation/privacy"
+        text_id: "nav_supporters_value",
+        link_url: "/supporters/value"
     },
     {
-        text_id: "nav_motivation_tradeoffs",
-        link_url: "/motivation/tradeoffs"
+        text_id: "nav_supporters_magic",
+        link_url: "/supporters/magic"
     },
     {
-        text_id: "nav_motivation_cryptography",
-        link_url: "/motivation/cryptography"
+        text_id: "nav_supporters_impact",
+        link_url: "/supporters/impact"
     },
     {
-        text_id: "nav_motivation_challenges",
-        link_url: "/motivation/challenges"
+        text_id: "nav_supporters_milestones",
+        link_url: "/supporters/milestones"
     },
     {
-        text_id: "nav_motivation_designgoals",
-        link_url: "/motivation/designgoals"
+        text_id: "nav_supporters_work",
+        link_url: "/supporters/work"
     }
 ]
 
-const sectionMotivation = {
-    text_id: "nav_motivation",
-    children: itemsMotivation
+export const sectionSupporters = {
+    text_id: "nav_supporters",
+    link_url: "/supporters",
+    children: itemsSupporters
 }
 
-const itemsUseCases = [
+const itemsContributors = [
     {
-        text_id: "nav_usecases_it",
-        link_url: "/usecases/it"
+        text_id: "nav_contributors_beliefs",
+        link_url: "/contributors/beliefs"
     },
     {
-        text_id: "nav_usecases_healthcare",
-        link_url: "/usecases/healthcare"
+        text_id: "nav_contributors_mission",
+        link_url: "/contributors/mission"
     },
     {
-        text_id: "nav_usecases_retail",
-        link_url: "/usecases/retail"
+        text_id: "nav_contributors_todo",
+        link_url: "/contributors/todo"
     },
     {
-        text_id: "nav_usecases_finance",
-        link_url: "/usecases/finance"
+        text_id: "nav_contributors_resources",
+        link_url: "/contributors/resources"
     },
     {
-        text_id: "nav_usecases_energyutility",
-        link_url: "/usecases/energyutility"
+        text_id: "nav_contributors_rules",
+        link_url: "/contributors/rules"
     },
     {
-        text_id: "nav_usecases_publicsector",
-        link_url: "/usecases/publicsector"
+        text_id: "nav_contributors_join",
+        link_url: "/contributors/join"
     }
 ]
 
-const sectionUseCases = {
-    text_id: "nav_usecases",
-    children: itemsUseCases
+export const sectionContributors = {
+    text_id: "nav_contributors",
+    link_url: "/contributors",
+    children: itemsContributors
 }
 
 const itemsTechnology = [
     {
-        text_id: "nav_technology_federation",
-        link_url: "/technology/federation"
+        text_id: "nav_technology_federated",
+        link_url: "/technology/federated"
+    },
+    {
+        text_id: "nav_technology_design",
+        link_url: "/technology/design"
     },
     {
         text_id: "nav_technology_clientserver",
@@ -114,15 +121,12 @@ const itemsTechnology = [
     {
         text_id: "nav_technology_cloud",
         link_url: "/technology/cloud"
-    },
-    {
-        text_id: "nav_technology_openapi",
-        link_url: "/technology/openapi"
     }
 ]
 
-const sectionTechnology = {
+export const sectionTechnology = {
     text_id: "nav_technology",
+    link_url: "/technology",
     children: itemsTechnology
 }
 
@@ -153,12 +157,46 @@ const itemsSolution = [
     }
 ]
 
-const sectionSolution = {
+export const sectionSolution = {
     text_id: "nav_solution",
+    link_url: "/solution",
     children: itemsSolution
 }
 
-const itemsDevClient = [
+const itemsProject = [
+    {
+        text_id: "nav_project_news",
+        link_url: "/project/news",
+    },
+    {
+        text_id: "nav_project_about",
+        link_url: "/project/about",
+    },
+    {
+        text_id: "nav_project_acknowledgements",
+        link_url: "/project/acknowledgements"
+    },
+    {
+        text_id: "nav_project_media",
+        link_url: "/project/media"
+    },
+    {
+        text_id: "nav_project_contact",
+        link_url: "/project/contact"
+    },
+    {
+        text_id: "nav_project_faq",
+        link_url: "/project/faq"
+    }
+]
+
+export const sectionProject = {
+    text_id: "nav_project",
+    link_url: "/",
+    children: itemsProject
+}
+
+const itemsClientside = [
     {
         text_id: "nav_clientside_explanation",
         link_url: "/docs/clientside/explanation"
@@ -187,10 +225,11 @@ const itemsDevClient = [
 
 const sectionClientside = {
     text_id: "nav_clientside",
-    children: itemsDevClient
+    link_url: "/clientside",
+    children: itemsClientside
 }
 
-const itemsDevServer = [
+const itemsServerside = [
     {
         text_id: "nav_serverside_explanation",
         link_url: "/docs/serverside/explanation"
@@ -219,83 +258,17 @@ const itemsDevServer = [
 
 const sectionServerside = {
     text_id: "nav_serverside",
-    children: itemsDevServer
-}
-
-const itemsResources = [
-    {
-        text_id: "nav_resources_sourcecode",
-        link_url: "/resources/sourcecode"
-    },
-    {
-        text_id: "nav_resources_support",
-        link_url: "/resources/support"
-    },
-    {
-        text_id: "nav_resources_community",
-        link_url: "/resources/community"
-    },
-    {
-        text_id: "nav_resources_science",
-        link_url: "/resources/science"
-    },
-    {
-        text_id: "nav_resources_styleguide",
-        link_url: "/resources/styleguide"
-    },
-    {
-        text_id: "nav_resources_license",
-        link_url: "/resources/license"
-    }
-]
-
-const sectionResources = {
-    text_id: "nav_resources",
-    children: itemsResources
+    link_url: "/serverside",
+    children: itemsServerside
 }
 
 export const navigationFooter = [
-    sectionAbout,
-    sectionMotivation,
-    sectionUseCases,
+    sectionUsers,
+    sectionSupporters,
+    sectionContributors,
     sectionTechnology,
     sectionSolution,
+    sectionProject,
     sectionClientside,
-    sectionServerside,
-    sectionResources
-]
-
-export const navigationHeader = [
-    {
-        text_id: "nav_about",
-        children: [
-            sectionAbout
-        ],
-        align: "left"
-    },
-    {
-        text_id: "nav_why",
-        children: [
-            sectionMotivation,
-            sectionUseCases
-        ],
-        align: "left"
-    },
-    {
-        text_id: "nav_how",
-        children: [
-            sectionTechnology,
-            sectionSolution
-        ],
-        align: "left"
-    },
-    {
-        text_id: "nav_what",
-        children: [
-            sectionClientside,
-            sectionServerside,
-            sectionResources
-        ],
-        align: "right"
-    }
+    sectionServerside
 ]

@@ -10,8 +10,17 @@ module.exports = {
                 languages: [`en`, `de`],
                 defaultLanguage: `en`,
                 redirect: true,
-                excludedPages: []
+                excludedPages: [`/src/docs`],
+                ignoredPaths: [`/src/docs`]
               }
-            }
+            },
+            {
+              resolve: `gatsby-source-filesystem`,
+              options: {
+                name: `markdown-pages`,
+                path: `${__dirname}/src/docs`
+              }
+            },
+            `gatsby-transformer-remark`
           ]
 }

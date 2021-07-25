@@ -8,7 +8,7 @@ import MenuTheme from "./MenuTheme"
 import MenuLegal from "./MenuLegal"
 import Translation from "./Translation"
 
-import { navigationFooter } from "../data/navigation"
+import { navigationFooter } from "/src/data/navigation"
 
 export default function Footer(props) {
     return (
@@ -20,6 +20,7 @@ export default function Footer(props) {
                             <MenuSection>
                                 <MenuHeading>
                                     <Translation id={section.text_id} />
+                                    {/* <InternalLink url={section.link_url} id={section.text_id} /> */}
                                 </MenuHeading>
                                 <MenuList>
                                     {section.children.map((child, cidx) => (

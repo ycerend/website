@@ -117,10 +117,29 @@ export const StyledCard = styled.div`
     padding: 2rem 2rem;
     border: 1px;
     border-style: solid;
-    /*width: 800px;*/
     background-color: ${props => props.theme.cardBackground};
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+`
+
+export const StyledFigureCard = styled.div`
+    margin: 2rem;
+    margin-left: 5rem;
+    display: inline-block;
+    padding: 2rem 2rem;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+`
+
+export const StyledIllustration = styled.div`
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2rem 2rem;
+    border: 1px;
+    width: 60%;
 `
 
 export const StyledTitle = styled.h2`
@@ -148,10 +167,15 @@ export const StyledItem = styled.li`
 export const StyledLink = styled.a`
 `
 
+export const StyledFdrtdLink = styled.a`
+    color: ${props => props.theme.fdrtdColor};
+`
+
+
 export const StyledThumbnailContainer = styled.div`
     width: 150px;
     height: 100px;
-    background-color: white;
+    background-color: ${props => props.background};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,24 +191,31 @@ export const StyledColumns = styled.div`
     display: grid;
     grid-template-columns: repeat(${props => props.columns}, auto);
     grid-gap: 2rem;
-    justify-content: space-between;
+    justify-content: left;
 `
 
 export const StyledCitationContainer = styled.div`
+    background-color: ${props => props.theme.shadeBackground};
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: ${props => props.theme.highlightColor};
+    padding: 2rem;
+    padding-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
 `
 
 export const StyledCitationContent = styled.div`
-    padding-left: 6rem;
-    padding-right: 6rem;
     text-align: justify;
     font-style: italic;
 `
 
 export const StyledCitationSource = styled.div`
-    padding-left: 6rem;
-    padding-right: 6rem;
     margin-top: -0.75rem;
-    margin-bottom: 1.0rem;
     /*text-align: center;*/
     font-style: italic;
     font-size: small;
@@ -192,7 +223,7 @@ export const StyledCitationSource = styled.div`
 
 export const StyledFdrtd = styled.span`
     color: ${props => props.theme.fdrtdColor};
-    font-weight: ${props => props.theme.id === "highcontrast" ? "bold" : "normal"};
+    /*font-weight: ${props => props.theme.id === "highcontrast" ? "bold" : "normal"};*/
 `
 
 export const StyledFilename = styled.span`
@@ -325,19 +356,19 @@ export const MenuItem = styled.li`
 export const StyledNavbarContainer = styled.div`
     font-size: small;
     display: flex;
-    padding-left: 2rem;
+    padding-left: 3rem;
+    align-items: flex-end;
 `
 
 export const StyledNavbarSection = styled.div`
 `
 
 export const StyledNavbarHeading = styled.div`
-    display: flex;
-    align-items: top;
+    /*display: flex;
+    align-items: flex-end;*/
     cursor: pointer;
-    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-right: 1.5rem;
+    margin-right: ${(props) => props.style ? props.style.paddingRight ? props.style.paddingRight : "2.5rem" : "2.5rem"};
 
     font-weight: bold;
     color: ${(props) => props.theme.highlightColor};
@@ -352,7 +383,7 @@ export const StyledNavbarHeading = styled.div`
 `
 
 export const StyledNavbarDropdown = styled.div`
-    top: 3rem;
+    top: 4.5rem;
     position: absolute;
     border: 1px;
     border-color: ${(props) => props.theme.textColor};
@@ -362,9 +393,6 @@ export const StyledNavbarDropdown = styled.div`
     padding-top: 0.5rem;
     visibility: ${(props) => props.animate === "open" ? "visible" : "hidden"};
     background: ${(props) => props.theme.cardBackground};
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 2rem;
 `
 
 export const StyledFooterContainer = styled.div`
@@ -477,8 +505,8 @@ export const StyledHeaderContainer = styled.div`
 export const StyledFigureContent = styled.div`
     width: ${props => props.width};
     height: ${props => props.height};
-    border: 1px;
-    border-style: solid;
+    /*border: 1px;
+    border-style: solid;*/
     padding: 2em;
     background-color: ${props => props.theme.figureBackground};
 `
@@ -536,4 +564,3 @@ export const StyledFigureText = styled.div`
     align-items: center;
     color: ${props => props.theme.highlightColor};
 `
-

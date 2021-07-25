@@ -1,22 +1,22 @@
 import React from "react"
 
-import { Page, Card, Paragraph, GreyButton, ActiveButton, ExternalLink } from "../../components/Elements"
+import { Page, Card, Paragraph, GreyButton, ActiveButton, ExternalLink } from "/src/components/Elements"
 
-export default function Support() {
+export default function Layout() {
     return (
-        <Page id="resources_support">
-            <Card id="resources_support_a">
-                <Paragraph id="resources_support_a1" />
-                <Paragraph id="resources_support_a2" />
+        <Page id="users_support">
+            <Card id="users_support_a">
+                <Paragraph id="users_support_a1" />
+                <Paragraph id="users_support_a2" />
                 <Paragraph>
                     <ActiveButton>
                         <ExternalLink url="https://github.com/fdrtd" text="GitHub" />
                     </ActiveButton>
                 </Paragraph>
             </Card>
-            <Card id="resources_support_b">
-                <Paragraph id="resources_support_b1" />
-                <Paragraph id="resources_support_b2" />
+            <Card id="users_support_b">
+                <Paragraph id="users_support_b1" />
+                <Paragraph id="users_support_b2" />
                 <Paragraph>
                     <GreyButton>
                         <ExternalLink url="mailto:support@fdrtd.com" text="support@fdrtd.com" />

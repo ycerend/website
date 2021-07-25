@@ -1,7 +1,7 @@
-import React from "react"
+    	import React from "react"
 import { FormattedMessage } from "gatsby-plugin-intl"
 
-import { Fdrtd, Filename, ExternalLink, InternalLink, Code, Red, Green } from "./Elements"
+import { Fdrtd, Filename, ExternalLink, InternalLink, DirectLink, Code, Red, Green } from "./Elements"
 
 const defaultStrings = require("../intl/en.json")
 
@@ -21,9 +21,11 @@ const Translation = ({ id }) => (
             filename: msg => <Filename>{msg}</Filename>,
             elink: msg => <ExternalLink url={msg.split("§")[0]} text={msg.split("§")[1]}/>,
             ilink: msg => <InternalLink url={msg.split("§")[0]} text={msg.split("§")[1]}/>,
+            dlink: msg => <DirectLink url={msg.split("§")[0]} text={msg.split("§")[1]}/>,
             code: msg => <Code>{msg}</Code>,
             red: msg => <Red>{msg}</Red>,
-            green: msg => <Green>{msg}</Green>
+            green: msg => <Green>{msg}</Green>,
+            brk: msg => <div>{msg.split("§")[0]}<br/>{msg.split("§")[1]}</div>
         }}
     /> : ""
 )

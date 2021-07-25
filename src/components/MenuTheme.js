@@ -8,7 +8,7 @@ export default function MenuTheme(props) {
     return (
         <MenuSection>
             <MenuHeading>
-                <Translation id="nav_theme_select" />
+                <Translation id="nav_theme" />
             </MenuHeading>
             <MenuList>
                 <MenuItem>

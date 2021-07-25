@@ -2,7 +2,7 @@ import React from "react"
 import { Link as IntlLink } from "gatsby-plugin-intl"
 
 import Layout from "./Layout"
-import { StyledHeading, StyledCard, StyledTitle, StyledSubtitle, StyledSection, StyledParagraph, StyledList, StyledItem, StyledLink, StyledThumbnailContainer, StyledThumbnail, StyledColumns, StyledCitationContainer, StyledCitationContent, StyledCitationSource, StyledFdrtd, StyledFilename, StyledImage, StyledImageContainer, StyledImageCredit, StyledButton, StyledGreyButton, StyledActiveButton, StyledFloat, StyledFigureContainer, StyledFigureContent, StyledFigureCaption, StyledFigureBox, StyledFigureRect, StyledFigureText, StyledCode } from "./Styles"
+import { StyledHeading, StyledCard, StyledFigureCard, StyledIllustration, StyledTitle, StyledSubtitle, StyledSection, StyledParagraph, StyledList, StyledItem, StyledLink, StyledThumbnailContainer, StyledThumbnail, StyledColumns, StyledCitationContainer, StyledCitationContent, StyledCitationSource, StyledFdrtd, StyledFilename, StyledImage, StyledImageContainer, StyledImageCredit, StyledButton, StyledGreyButton, StyledActiveButton, StyledFloat, StyledFigureContainer, StyledFigureContent, StyledFigureCaption, StyledFigureBox, StyledFigureRect, StyledFigureText, StyledCode, StyledFdrtdLink } from "./Styles"
 import Translation from "./Translation"
 
 export function Page(props) {
@@ -19,12 +19,26 @@ export function Page(props) {
 export function Card(props) {
     return (
         <StyledCard>
-            {props.heading ? <StyledSubtitle><Translation id={props.heading} /></StyledSubtitle> : ""}
+            {props.heading_id ? <StyledSubtitle><Translation id={props.heading_id} /></StyledSubtitle> : ""}
+            {props.heading ? <StyledSubtitle>{props.heading}</StyledSubtitle> : ""}
             <StyledTitle>
                 {props.id ? <Translation id={props.id} /> : props.text}
             </StyledTitle>
             {props.children}
         </StyledCard>
+    )
+}
+
+export function FigureCard(props) {
+    return (
+        <StyledFigureCard>
+            {props.heading_id ? <StyledSubtitle><Translation id={props.heading_id} /></StyledSubtitle> : ""}
+            {props.heading ? <StyledSubtitle>{props.heading}</StyledSubtitle> : ""}
+            <StyledTitle>
+                {props.id ? <Translation id={props.id} /> : props.text}
+            </StyledTitle>
+            {props.children}
+        </StyledFigureCard>
     )
 }
 
@@ -83,17 +97,35 @@ export function Item(props) {
     )
 }
 
+export function FdrtdLink(props) {
+    return (
+        <StyledFdrtdLink href={props.href} target={props.target}>
+            {props.children}
+        </StyledFdrtdLink>
+    )
+}
+
 export function ExternalLink(props) {
     return (
-        <StyledLink href={props.url} target="_new">
+        <StyledLink href={props.url} target="_new" style={props.style}>
             {props.id ? <Translation id={props.id} /> : props.text}
+            {props.children}
+        </StyledLink>
+    )
+}
+
+export function DirectLink(props) {
+    return (
+        <StyledLink href={props.url} download>
+            {props.id ? <Translation id={props.id} /> : props.text}
+            {props.children}
         </StyledLink>
     )
 }
 
 export function InternalLink(props) {
     return (
-        <IntlLink to={props.url}>
+        <IntlLink to={props.url} style={props.style}>
             {props.id ? <Translation id={props.id} /> : props.text}
             {props.children}
         </IntlLink>
@@ -102,9 +134,24 @@ export function InternalLink(props) {
 
 export function Thumbnail(props) {
     return (
-        <StyledThumbnailContainer>
+        <StyledThumbnailContainer background={props.background}>
             <StyledThumbnail src={props.src} />
         </StyledThumbnailContainer>
+    )
+}
+
+export function ThumbnailAndText(props) {
+    return (
+        <Paragraph>
+            <Columns columns="2">
+                <div width="150px">
+                    <Thumbnail width="150" height="100" padding="0" src={props.src} background={props.background ? props.background : "white"} />
+                </div>
+                <div>
+                    <Paragraph id={props.id} />
+                </div>
+            </Columns>
+        </Paragraph>
     )
 }
 
@@ -151,7 +198,7 @@ export function Filename(props) {
 export function Image(props) {
     return (
         <StyledImageContainer>
-            <StyledImage src={props.src} width={"100%"}/>
+            <StyledImage src={props.src} width={props.width} height={props.height} />
             <StyledImageCredit>
                 <Translation id="general_imagecredit" />: {props.credit}
             </StyledImageCredit>
@@ -161,9 +208,17 @@ export function Image(props) {
 
 export function Float(props) {
     return (
-        <StyledFloat width={props.width} float={props.float}>
+        <StyledFloat width={props.width} height={props.height} float={props.float}>
             {props.children}
         </StyledFloat>
+    )
+}
+
+export function Illustration(props) {
+    return (
+        <StyledIllustration>
+            {props.children}
+        </StyledIllustration>
     )
 }
 
@@ -197,9 +252,11 @@ export function Figure(props) {
             <StyledFigureContent width={props.width} height={props.height}>
                 {props.children}
             </StyledFigureContent>
-            <StyledFigureCaption>
-                {props.caption}
-            </StyledFigureCaption>
+            {props.source ? 
+                <StyledFigureCaption>
+                    {props.caption}
+                </StyledFigureCaption>
+            : ""}
         </StyledFigureContainer>
     )
 }

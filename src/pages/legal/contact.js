@@ -1,8 +1,8 @@
 import React from "react"
 
-import { Page, Card, Section, Paragraph, Line } from "../../components/Elements"
+import { Page, Card, Section, Paragraph, Line } from "/src/components/Elements"
 
-export default function Contact() {
+export default function Layout() {
     return (
         <Page id="legal_contact_heading">
             <Card id="legal_contact_a">

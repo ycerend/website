@@ -1,8 +1,8 @@
 import React from "react"
 
-import { Page, Card, Section, Paragraph, Line, List, Item } from "../../components/Elements"
+import { Page, Card, Section, Paragraph, Line, List, Item } from "/src/components/Elements"
 
-export default function Privacy() {
+export default function Layout() {
     return (
         <Page id="legal_privacy_heading">
             <Card id="legal_privacy_a">

@@ -4,7 +4,7 @@ import { StyledMenuSection, StyledMenuHeading, StyledMenuList, StyledMenuItem } 
 
 export function MenuSection(props) {
     return (
-        <StyledMenuSection>
+        <StyledMenuSection style={props.style}>
             {props.children}
         </StyledMenuSection>
     )
@@ -12,7 +12,7 @@ export function MenuSection(props) {
 
 export function MenuHeading(props) {
     return (
-        <StyledMenuHeading>
+        <StyledMenuHeading style={props.style}>
             {props.children}
         </StyledMenuHeading>
     )
@@ -20,7 +20,7 @@ export function MenuHeading(props) {
 
 export function MenuList(props) {
     return (
-        <StyledMenuList>
+        <StyledMenuList style={props.style}>
             {props.children}
         </StyledMenuList>
     )
@@ -28,7 +28,7 @@ export function MenuList(props) {
 
 export function MenuItem(props) {
     return (
-        <StyledMenuItem>
+        <StyledMenuItem style={props.style}>
             {props.children}
         </StyledMenuItem>
     )
