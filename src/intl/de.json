@@ -11,7 +11,7 @@
     "previous_topic": "Vorheriges Thema",
     "next_topic": "Nächstes Thema",
 
-    "nav_users": "<brk>Für§Nutzer</brk>",
+    "nav_users": "Für Nutzer",
     "nav_users_benefit": "Vorteile",
     "nav_users_journey": "User Journey",
     "nav_users_usecases": "Fallbeispiele",
@@ -19,7 +19,7 @@
     "nav_users_support": "Support",
     "nav_users_start": "Starten Sie mit uns",
     
-    "nav_supporters": "<brk>Für§Unterstützer</brk>",
+    "nav_supporters": "Für Unterstützer",
     "nav_supporters_opportunity": "Problemstellung",
     "nav_supporters_value": "Value Proposition",
     "nav_supporters_magic": "Underlying Magic",
@@ -27,7 +27,7 @@
     "nav_supporters_milestones": "Meilensteine",
     "nav_supporters_work": "Arbeiten Sie mit uns",
     
-    "nav_contributors": "<brk>Für§Kontributoren</brk>",
+    "nav_contributors": "Für Kontributoren",
     "nav_contributors_beliefs": "Unsere Überzeugungen",
     "nav_contributors_mission": "Unsere Mission",
     "nav_contributors_todo": "Arbeitspakete",
@@ -35,7 +35,7 @@
     "nav_contributors_rules": "Regeln & Empfehlungen",
     "nav_contributors_join": "Treten Sie dem Team bei",
     
-    "nav_technology": "<brk>Unsere§Technologie</brk>",
+    "nav_technology": "Unsere Technologie",
     "nav_technology_federated": "<fdrtd>Federated Secure Computing</fdrtd>",
     "nav_technology_design": "Design-Highlights",
     "nav_technology_clientserver": "Client-Server-Architektur",
@@ -43,7 +43,7 @@
     "nav_technology_platform": "Plattform & Ökosystem",
     "nav_technology_cloud": "Bereit für Cloud & IoT",
 
-    "nav_solution": "<brk>Unsere§Lösung</brk>",
+    "nav_solution": "Unsere Lösung",
     "nav_solution_fdrtd": "<fdrtd>fdrtd & fdrtd server</fdrtd>",
     "nav_solution_protocols": "Unterstützte Protokolle",
     "nav_solution_usecases": "Unterstützte Anwendungen",
@@ -51,7 +51,7 @@
     "nav_solution_plugandplay": "Plug & Play Erweiterbarkeit",
     "nav_solution_foss": "Free & Quelloffen",
 
-    "nav_project": "<brk>Unser§Projekt</brk>",
+    "nav_project": "Unser Projekt",
     "nav_project_news": "Neuigkeiten",
     "nav_project_acknowledgements": "Danksagung",
     "nav_project_faq": "Häufig gestellte Fragen",
@@ -59,9 +59,9 @@
     "nav_project_about": "Über uns",
     "nav_project_contact": "Kontakt",
 
-    "nav_docs": "<fdrtd><brk>Dokumentation§für Entwickler</brk></fdrtd>",
+    "nav_docs": "<fdrtd>Dokumentation für Entwickler</fdrtd>",
 
-    "nav_github": "<fdrtd><brk>Source Code§auf GitHub</brk></fdrtd>",
+    "nav_github": "<fdrtd>Source Code auf GitHub</fdrtd>",
 
     "nav_language_select": "Sprache",
     "nav_language_en": "Englisch",

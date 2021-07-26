@@ -11,7 +11,7 @@
     "previous_topic": "previous topic",
     "next_topic": "next topic",
 
-    "nav_users": "<brk>for§users</brk>",
+    "nav_users": "for users",
     "nav_users_benefit": "key benefits",
     "nav_users_journey": "user journey",
     "nav_users_usecases": "use cases",
@@ -19,7 +19,7 @@
     "nav_users_support": "support",
     "nav_users_start": "how to start",
     
-    "nav_supporters": "<brk>for§supporters</brk>",
+    "nav_supporters": "for supporters",
     "nav_supporters_opportunity": "problem & opportunity",
     "nav_supporters_value": "value proposition",
     "nav_supporters_magic": "underlying magic",
@@ -27,7 +27,7 @@
     "nav_supporters_milestones": "milestones & next steps",
     "nav_supporters_work": "work with us",
     
-    "nav_contributors": "<brk>for§contributors</brk>",
+    "nav_contributors": "for contributors",
     "nav_contributors_beliefs": "our beliefs",
     "nav_contributors_mission": "our mission",
     "nav_contributors_todo": "work packages",
@@ -35,7 +35,7 @@
     "nav_contributors_rules": "rules & guidelines",
     "nav_contributors_join": "join the team",
     
-    "nav_technology": "<brk>our§technology</brk>",
+    "nav_technology": "our technology",
     "nav_technology_federated": "<fdrtd>federated secure computing</fdrtd>",
     "nav_technology_design": "design highlights",
     "nav_technology_clientserver": "client & server architecture",
@@ -43,7 +43,7 @@
     "nav_technology_platform": "platform & ecosystem",
     "nav_technology_cloud": "ready for cloud & IoT",
 
-    "nav_solution": "<brk>our§solution</brk>",
+    "nav_solution": "our solution",
     "nav_solution_fdrtd": "<fdrtd>fdrtd & fdrtd server</fdrtd>",
     "nav_solution_protocols": "supported protocols",
     "nav_solution_usecases": "supported use cases",
@@ -51,7 +51,7 @@
     "nav_solution_plugandplay": "plug & play extensibility",
     "nav_solution_foss": "free & open source",
 
-    "nav_project": "<brk>our§project</brk>",
+    "nav_project": "our project",
     "nav_project_news": "news",
     "nav_project_acknowledgements": "acknowledgements",
     "nav_project_faq": "frequently asked questions",
@@ -59,11 +59,11 @@
     "nav_project_about": "about us",
     "nav_project_contact": "contact",
 
-    "nav_docs": "<fdrtd><brk>documentation§for developers</brk></fdrtd>",
+    "nav_docs": "<fdrtd>documentation for developers</fdrtd>",
 
-    "nav_github": "<fdrtd><brk>source code§on GitHub</brk></fdrtd>",
+    "nav_github": "<fdrtd>source code on GitHub</fdrtd>",
 
-    "nav_clientside": "<brk>client-side§development</brk>",
+    "nav_clientside": "client-side development",
     "nav_clientside_explanation": "explanation",
     "nav_clientside_tutorials": "tutorials",
     "nav_clientside_howto": "how-to guides",
@@ -71,7 +71,7 @@
     "nav_clientside_library": "microservice library",
     "nav_clientside_apibrowser": "API browser",
 
-    "nav_serverside": "<brk>server-side§development</brk>",
+    "nav_serverside": "server-side development",
     "nav_serverside_explanation": "explanation",
     "nav_serverside_tutorials": "tutorials",
     "nav_serverside_howto": "how-to guides",
