@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Page, Card, Paragraph, Image, List, Item, Floa, Columns } from "/src/components/Elements"
+import { Page, Card, Paragraph, Image, Columns } from "/src/components/Elements"
 
 export default function Layout() {
     return (

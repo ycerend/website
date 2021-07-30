@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Card, Columns, Fdrtd, Item, ExternalLink, List, Page, Paragraph, ThumbnailAndText } from "/src/components/Elements"
+import { Card, Item, List, Page, Paragraph, ThumbnailAndText } from "/src/components/Elements"
 
 export default function Layout() {
     return (

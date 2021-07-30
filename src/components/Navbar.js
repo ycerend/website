@@ -1,7 +1,7 @@
 import React from "react"
 import { useState, useEffect, createRef } from "react"
 import { BiWorld, BiSun } from "react-icons/bi"
-import { MdExpandMore } from "react-icons/md"
+/*import { MdExpandMore } from "react-icons/md"*/
   
 import { InternalLink, ExternalLink } from "./Elements"
 import { StyledNavbarContainer, StyledNavbarSection, StyledNavbarHeading, StyledNavbarDropdown } from "./Styles"
@@ -12,11 +12,11 @@ import Translation from "./Translation"
 
 import { sectionUsers, sectionContributors, sectionSolution, sectionSupporters, sectionTechnology, sectionProject } from "/src/data/navigation"
 
-const NavbarIcon = (props) => {
+/*const NavbarIcon = (props) => {
     return(
         <MdExpandMore size="24" style={{position: 'relative', left: '-0.4em', transform: props.isOpen ? "rotate(180deg)" : ""}}/>
     )
-}
+}*/
 
 export const useOnClickOutside = (ref, handler, events) => {
     if (!events) events = ["mousedown", "touchstart"]
@@ -60,14 +60,14 @@ const NavDropdown = (props) => {
     )
 }
 
-const NavDropDownMultiple = (props) => {
+/*const NavDropDownMultiple = (props) => {
     return (
         <NavDropdown toggle={<Translation id={props.sections.text_id} key={props.sections.idx} />}>
             {props.sections.children.map((section, idx) => (
                 <MenuSection key={idx}>
                     <MenuHeading>
                         <Translation id={section.text_id} />
-                        {/* <InternalLink url={section.link_url} id={section.text_id} /> */}
+                        {/ * <InternalLink url={section.link_url} id={section.text_id} /> * /}
                     </MenuHeading>
                     <MenuList>
                         {section.children.map((item, idx) => (
@@ -80,7 +80,7 @@ const NavDropDownMultiple = (props) => {
             ))}
         </NavDropdown>
     )
-}
+}*/
 
 const NavDropDownSingle = (props) => {
     return (

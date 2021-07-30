@@ -1,7 +1,6 @@
 import React from "react"
-import styled from "styled-components"
 
-import { FigureCard, Columns, Fdrtd, Item, ExternalLink, List, Thumbnail, Page, Paragraph, Figure, FigureRect, FigureBox, FigureText } from "/src/components/Elements"
+import { FigureCard, Page, Figure, FigureRect, FigureBox, FigureText } from "/src/components/Elements"
 
 export default function Layout() {
     return (

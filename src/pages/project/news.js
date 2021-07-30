@@ -1,7 +1,7 @@
 import React from "react"
 import { FormattedDate } from "gatsby-plugin-intl"
 
-import { Page, Card, Paragraph, Subtitle } from "/src/components/Elements"
+import { Page, Card, Paragraph } from "/src/components/Elements"
 
 export default function Layout() {
     return (
