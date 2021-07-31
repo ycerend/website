@@ -113,8 +113,11 @@ export const StyledHeading = styled.h1`
 `
 
 export const StyledFloatingToc = styled.div`
-    width: 20rem;
+    width: auto;
     float: right;
+    position: fixed;
+    right: 3em;
+    margin-left: 3em;
     padding: 1rem 1rem;
     border: 1px;
     border-style: solid;

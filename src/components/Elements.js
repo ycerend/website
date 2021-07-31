@@ -8,6 +8,7 @@ import Translation from "./Translation"
 export function Page(props) {
     return (
         <Layout>
+            {props.breadcrumbs}
             <StyledHeading>
                 {props.id ? <Translation id={props.id} /> : props.text}
             </StyledHeading>
