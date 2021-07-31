@@ -112,6 +112,17 @@ export const StyledContent = styled.div`
 export const StyledHeading = styled.h1`
 `
 
+export const StyledFloatingToc = styled.div`
+    width: 20rem;
+    float: right;
+    padding: 1rem 1rem;
+    border: 1px;
+    border-style: solid;
+    background-color: ${props => props.theme.cardBackground};
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+`
+
 export const StyledCard = styled.div`
     margin: 2rem;
     padding: 2rem 2rem;
