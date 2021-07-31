@@ -422,8 +422,8 @@ export const StyledFooterGrid = styled.div`
     font-size: small;
     display: grid;
     @media (max-width: 800px) { grid-template-columns: repeat(2, auto) };
-    @media (min-width: 800px) and (max-width: 1500px) { grid-template-columns: repeat(4, auto) };
-    @media (min-width: 1500px) { grid-template-columns: repeat(8, auto) };
+    @media (min-width: 800px) and (max-width: 1500px) { grid-template-columns: repeat(3, auto) };
+    @media (min-width: 1200px) { grid-template-columns: repeat(6, auto) };
     grid-gap: 3rem;
     justify-content: space-between;
 `

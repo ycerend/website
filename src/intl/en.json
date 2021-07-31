@@ -63,22 +63,6 @@
 
     "nav_github": "<fdrtd>source code on GitHub</fdrtd>",
 
-    "nav_clientside": "client-side development",
-    "nav_clientside_explanation": "explanation",
-    "nav_clientside_tutorials": "tutorials",
-    "nav_clientside_howto": "how-to guides",
-    "nav_clientside_reference": "reference",
-    "nav_clientside_library": "microservice library",
-    "nav_clientside_apibrowser": "API browser",
-
-    "nav_serverside": "server-side development",
-    "nav_serverside_explanation": "explanation",
-    "nav_serverside_tutorials": "tutorials",
-    "nav_serverside_howto": "how-to guides",
-    "nav_serverside_reference": "reference",
-    "nav_serverside_stub": "server stub",
-    "nav_serverside_devsecops": "dev-sec-ops",
-
     "nav_language_select": "language",
     "nav_language_en": "English",
     "nav_language_de": "German",

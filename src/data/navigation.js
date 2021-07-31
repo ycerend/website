@@ -196,79 +196,11 @@ export const sectionProject = {
     children: itemsProject
 }
 
-const itemsClientside = [
-    {
-        text_id: "nav_clientside_explanation",
-        link_url: "/docs/clientside/explanation"
-    },
-    {
-        text_id: "nav_clientside_tutorials",
-        link_url: "/docs/clientside/tutorials"
-    },
-    {
-        text_id: "nav_clientside_howto",
-        link_url: "/docs/clientside/howto"
-    },
-    {
-        text_id: "nav_clientside_reference",
-        link_url: "/docs/clientside/reference"
-    },
-    {
-        text_id: "nav_clientside_library",
-        link_url: "/docs/clientside/library"
-    },
-    {
-        text_id: "nav_clientside_apibrowser",
-        link_url: "/docs/clientside/apibrowser"
-    }
-]
-
-const sectionClientside = {
-    text_id: "nav_clientside",
-    link_url: "/clientside",
-    children: itemsClientside
-}
-
-const itemsServerside = [
-    {
-        text_id: "nav_serverside_explanation",
-        link_url: "/docs/serverside/explanation"
-    },
-    {
-        text_id: "nav_serverside_tutorials",
-        link_url: "/docs/serverside/tutorials"
-    },
-    {
-        text_id: "nav_serverside_howto",
-        link_url: "/docs/serverside/howto"
-    },
-    {
-        text_id: "nav_serverside_reference",
-        link_url: "/docs/serverside/reference"
-    },
-    {
-        text_id: "nav_serverside_stub",
-        link_url: "/docs/serverside/stub"
-    },
-    {
-        text_id: "nav_serverside_devsecops",
-        link_url: "/docs/serverside/devsecops"
-    }
-]
-
-const sectionServerside = {
-    text_id: "nav_serverside",
-    link_url: "/serverside",
-    children: itemsServerside
-}
-
 export const navigationFooter = [
     sectionUsers,
     sectionSupporters,
     sectionContributors,
     sectionTechnology,
     sectionSolution,
-    sectionProject,
-    sectionClientside,
-    sectionServerside
+    sectionProject
 ]
