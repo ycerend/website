@@ -1,27 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Page, Card } from "/src/components/Elements"
+import { Page } from "/src/components/Elements"
 import { FloatingToc } from "/src/components/FloatingToc"
 import { Link as IntlLink } from "gatsby-plugin-intl"
-import { Toc } from "/src/components/Toc"
 
 export default function Layout({data}) {
   const markdownRemark = data.markdownRemark
   const allMarkdownRemark = data.allMarkdownRemark.edges
-  function fnRelated(node) {
-    const frontmatter=node.frontmatter
-    const pos = frontmatter.slug.lastIndexOf('/')
-    const parent = frontmatter.slug.substring(0, pos)
-    const isRelated = markdownRemark.frontmatter.slug.indexOf(parent) != -1
-    const level = frontmatter.slug.split('/').length - 2
-    return (
-      isRelated ? <div><IntlLink to={frontmatter.slug} style={{textDecoration: "none", paddingLeft: level*20}}>{frontmatter.navtitle ? frontmatter.navtitle : frontmatter.title}</IntlLink></div> : ""
-    )
-  }
   function fnToc(node) {
     const frontmatter=node.frontmatter
-    const isChild = ((frontmatter.slug.indexOf(markdownRemark.frontmatter.slug) != -1) &&
-                     (markdownRemark.frontmatter.slug != frontmatter.slug))
+    const isChild = ((frontmatter.slug.indexOf(markdownRemark.frontmatter.slug) !== -1) &&
+                     (markdownRemark.frontmatter.slug !== frontmatter.slug))
     const level = frontmatter.slug.split('/').length - markdownRemark.frontmatter.slug.split('/').length
     return (
       isChild ?
@@ -34,8 +23,8 @@ export default function Layout({data}) {
   }
   function fnBreadcrumbs(node) {
     const frontmatter=node.frontmatter
-    const isParent = ((markdownRemark.frontmatter.slug.indexOf(frontmatter.slug) != -1) &&
-                      (markdownRemark.frontmatter.slug != frontmatter.slug))
+    const isParent = ((markdownRemark.frontmatter.slug.indexOf(frontmatter.slug) !== -1) &&
+                      (markdownRemark.frontmatter.slug !== frontmatter.slug))
     return (
       isParent ?
         <span>
@@ -47,8 +36,8 @@ export default function Layout({data}) {
   }
   function fnParents(node) {
     const frontmatter=node.frontmatter
-    const isParent = ((markdownRemark.frontmatter.slug.indexOf(frontmatter.slug) != -1) &&
-                      (markdownRemark.frontmatter.slug != frontmatter.slug))
+    const isParent = ((markdownRemark.frontmatter.slug.indexOf(frontmatter.slug) !== -1) &&
+                      (markdownRemark.frontmatter.slug !== frontmatter.slug))
     return (
       isParent ?
         <div>
@@ -65,7 +54,7 @@ export default function Layout({data}) {
     const frontmatter=node.frontmatter
     const pos = frontmatter.slug.lastIndexOf('/')
     const parent = frontmatter.slug.substring(0, pos)
-    const isSibling = ((parent == my_parent) && (markdownRemark.frontmatter.slug != frontmatter.slug))
+    const isSibling = ((parent === my_parent) && (markdownRemark.frontmatter.slug !== frontmatter.slug))
     return (
       isSibling ?
         <div>
@@ -80,8 +69,7 @@ export default function Layout({data}) {
     const frontmatter=node.frontmatter
     const pos = frontmatter.slug.lastIndexOf('/')
     const parent = frontmatter.slug.substring(0, pos)
-    const isChild = markdownRemark.frontmatter.slug == parent
-    const level = frontmatter.slug.split('/').length - markdownRemark.frontmatter.slug.split('/').length
+    const isChild = markdownRemark.frontmatter.slug === parent
     return (
       isChild ?
         <div>
