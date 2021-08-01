@@ -2,3 +2,22 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+.remark-inlineCode {
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    padding: 2px;
+    margin: 2px;
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+.remark-code {
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    padding: 2px;
+    margin: 2px;
+    background-color: rgba(128, 128, 128, 0.25);
+}
+

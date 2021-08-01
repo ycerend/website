@@ -21,6 +21,21 @@ module.exports = {
                 path: `${__dirname}/src/docs`
               }
             },
-            `gatsby-transformer-remark`
+            {
+              resolve: `gatsby-transformer-remark`,
+              options: {
+                plugins: [
+                  {
+                    resolve: `gatsby-remark-classes`,
+                    options: {
+                      classMap: {
+                        "inlineCode": "remark-inlineCode",
+                        "code": "remark-code"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
           ]
 }
