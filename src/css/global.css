@@ -3,6 +3,10 @@ body {
     padding: 0px;
 }
 
+pre {
+    margin: 3em;
+}
+
 .remark-inlineCode {
     border-style: solid;
     border-radius: 2px;
@@ -17,6 +21,5 @@ body {
     border-radius: 5px;
     border-width: 1px;
     padding: 1em;
-    margin: 3em;
     background-color: rgba(128, 128, 128, 0.25);
 }
