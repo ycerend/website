@@ -73,7 +73,7 @@ to do so, we need to install the fdrtd client which is basically a library of fu
 ## 3. connect to the server's API
 
 * run your Python interpreter, e.g. `python`
-* the following command are entered in the Python console:
+* the following commands are entered in the Python console:
 * import the fdrtd client library: `import fdrtd`
 * use the built-in HTTP interface with the URL and port of your local server: `interface = fdrtd.HttpInterface("http://localhost:55500")`
 * create an API object using the HTTP interface: `api = fdrtd.Api(interface)`
