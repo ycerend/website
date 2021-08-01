@@ -11,4 +11,6 @@ in case you have any questions, need help, or want to give feedback, please cont
 
 ## lessons
 
-* [getting started](/en/docs/tutorials/gettingstarted)
+* [getting started](/en/docs/tutorials/gettingstarted) - run a fdrtd server and use the fdrtd client to remotely execute microservices
+
+* [secure sum](/en/docs/tutorials/securesum) - Alice, Bob, and Charlie are jointly computing the sum of their private inputs

@@ -1,11 +1,11 @@
 ---
-slug: "/docs/tutorials/secureaddition"
-title: "secure addition"
+slug: "/docs/tutorials/securesum"
+title: "secure sum"
 ---
 
 ## welcome
 
-welcome to the 'secure addition' tutorial.
+welcome to the 'secure sum' tutorial.
 
 this tutorial is designed for anyone who has not yet run secure computations with fdrtd. 
 
