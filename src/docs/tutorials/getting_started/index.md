@@ -28,8 +28,8 @@ in this 5-minute tutorial, you are going to learn to
 * **natural language:** English
 * **programming language:** Python
 * **operating system:** OS independent
-* **domain:** healthcare
-* **intended audience:** participants of the [Medical Informatics Initiative](https://www.medizininformatik-initiative.de/en/start)
+* **industry/function:** all
+* **intended audience:** all
 
 ### prequisites
 
