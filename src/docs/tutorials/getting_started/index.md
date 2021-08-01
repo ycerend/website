@@ -110,4 +110,4 @@ the local object `kvstorage` is a handle to the microservice on the server. we c
 
 did you get the answer 'Peter' from the server? excellent work.
 
-you have successfully installed fdrtd server and client and remotely executed microservices on the server.
+you have successfully installed the fdrtd server and client and remotely executed microservices on the server.
