@@ -8,6 +8,7 @@ import { StyledToggleLanguage } from "./Styles"
 const languageName = {
     en: "English",
     de: "Deutsch",
+    hi: "हिंदी",
 }
   
 export default function MenuTheme(props) {
