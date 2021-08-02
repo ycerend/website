@@ -95,7 +95,7 @@ the list of microservices contains one by the name of 'KeyValueStorage'. it is p
 the local object `kvstorage` is a handle to the microservice on the server. we can treat it like it had all the member functions of that microservice itself:
 
 * let's put a value ('Peter') into a new storage ('Names'): `name = kvstorage.create(value='Peter', storage='Names')`
-* let's try to read that value back: `name.get_value()`
+* let's try to read that value back: `name.retrieve()`
 
 
 ## cleanup
