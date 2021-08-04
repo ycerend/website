@@ -330,7 +330,7 @@ export const MenuSection = styled.div`
 
 export const MenuHeading = styled.div`
     display: flex;
-    align-items: top;
+    align-items: flex-end;
     cursor: pointer;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -374,13 +374,23 @@ export const StyledNavbarContainer = styled.div`
     align-items: flex-end;
 `
 
+export const StyledNavbarGrid = styled.div`
+    font-size: small;
+    display: grid;
+    @media (max-width: 799px) { grid-template-columns: repeat(2, auto) };
+    @media (min-width: 800px) and (max-width: 1199px) { grid-template-columns: repeat(3, auto) };
+    @media (min-width: 1200px) { grid-template-columns: repeat(9, auto) };
+    justify-content: space-between;
+`
+
 export const StyledNavbarSection = styled.div`
 `
 
 export const StyledNavbarHeading = styled.div`
-    /*display: flex;
-    align-items: flex-end;*/
+    display: flex;
+    align-items: flex-end;
     cursor: pointer;
+    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     margin-right: ${(props) => props.style ? props.style.paddingRight ? props.style.paddingRight : "2.5rem" : "2.5rem"};
 

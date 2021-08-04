@@ -1,10 +1,11 @@
 import React from "react"
+import Media from "react-media"
 import { useState, useEffect, createRef } from "react"
 import { BiWorld, BiSun } from "react-icons/bi"
 /*import { MdExpandMore } from "react-icons/md"*/
   
 import { InternalLink, ExternalLink } from "./Elements"
-import { StyledNavbarContainer, StyledNavbarSection, StyledNavbarHeading, StyledNavbarDropdown } from "./Styles"
+import { StyledNavbarContainer, StyledNavbarGrid, StyledNavbarSection, StyledNavbarHeading, StyledNavbarDropdown } from "./Styles"
 import { MenuSection, MenuHeading, MenuList, MenuItem } from "./Menu"
 import MenuLanguage from "./MenuLanguage"
 import MenuTheme from "./MenuTheme"
@@ -34,7 +35,7 @@ export const useOnClickOutside = (ref, handler, events) => {
     )
 }
 
-const NavDropdown = (props) => {
+export const NavDropdown = (props) => {
     const [isOpen, setIsOpen] = useState(false)
     const ref = createRef()
 
@@ -98,27 +99,33 @@ const NavDropDownSingle = (props) => {
     )
 }
 
-export default function Navbar(props) {
+export function Navbar(props) {
     return (
         <StyledNavbarContainer>
-            <NavDropDownSingle section={sectionUsers} />
-            <NavDropDownSingle section={sectionSupporters} />
-            <NavDropDownSingle section={sectionContributors} />
-            <NavDropDownSingle section={sectionTechnology} />
-            <NavDropDownSingle section={sectionSolution} />
-            <NavDropDownSingle section={sectionProject} />
-            <MenuHeading style={{marginRight: "2.5em"}}>
-                <InternalLink url="/docs" id="nav_docs" />
-            </MenuHeading>
-            <MenuHeading style={{marginRight: "2.5em"}}>
-                <ExternalLink url="https://github.com/fdrtd" target="_new" id="nav_github" />
-            </MenuHeading>
-            <NavDropdown toggle={<BiWorld size={20}/>} style={{paddingRight: "0.5em"}}>
-                <MenuLanguage />
-            </NavDropdown>
-            <NavDropdown toggle={<BiSun size={20}/>} style={{paddingRight: "0"}}>
-                <MenuTheme setTheme={props.setTheme} />
-            </NavDropdown>
+            <StyledNavbarGrid>
+                <NavDropDownSingle section={sectionUsers} />
+                <NavDropDownSingle section={sectionSupporters} />
+                <NavDropDownSingle section={sectionContributors} />
+                <NavDropDownSingle section={sectionTechnology} />
+                <NavDropDownSingle section={sectionSolution} />
+                <NavDropDownSingle section={sectionProject} />
+                <MenuHeading style={{marginRight: "2.5em"}}>
+                    <InternalLink url="/docs" id="nav_docs" />
+                </MenuHeading>
+                <MenuHeading style={{marginRight: "2.5em"}}>
+                    <ExternalLink url="https://github.com/fdrtd" target="_new" id="nav_github" />
+                </MenuHeading>
+                <Media query="(min-width: 1200px)" render={() => (
+                    <div style={{display: "flex", flexDirection: "row"}}>
+                        <NavDropdown toggle={<BiWorld size={20}/>} style={{paddingRight: "0.25em"}}>
+                            <MenuLanguage />
+                        </NavDropdown>
+                        <NavDropdown toggle={<BiSun size={20}/>} style={{paddingRight: "0"}}>
+                            <MenuTheme setTheme={props.setTheme} />
+                        </NavDropdown>
+                    </div>
+                )}/>
+            </StyledNavbarGrid>
         </StyledNavbarContainer>
     )
 }
