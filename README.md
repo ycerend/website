@@ -1,6 +1,7 @@
 ![license](https://img.shields.io/github/license/fdrtd/website)
 ![netlify](https://img.shields.io/netlify/7f01c714-01c0-4aee-b5ef-443e768a3952)
 ![online](https://img.shields.io/website?url=https%3A%2F%2Fwww.fdrtd.com)
+![CodeQL](https://github.com/fdrtd/website/workflows/CodeQL/badge.svg)
 
 
 # description
