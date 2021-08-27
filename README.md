@@ -1,6 +1,11 @@
-# fdrtd
+![license](https://img.shields.io/github/license/fdrtd/website)
+![netlify](https://img.shields.io/netlify/7f01c714-01c0-4aee-b5ef-443e768a3952)
+![online](https://img.shields.io/website?url=https%3A%2F%2Fwww.fdrtd.com)
 
-`fdrtd` is a free and open source implementation of `federated secure computing`,\
+
+# description
+
+**fdrtd** is a free and open source implementation of **federated secure computing**,
 a modern microservice architecture for privacy-preserving computation:
 
 - [x] multi-protocol technology platform (e.g. secure multipary computation)
@@ -10,26 +15,27 @@ a modern microservice architecture for privacy-preserving computation:
 - [x] runs in virtually any environment (compatibility and interoperability)
 - [x] OpenAPI 3.0 standard for 3rd party developers (plug & play extensions)
 
-## resources
 
-* non-technical information: [www.fdrtd.com](https://www.fdrtd.com)
-* technical documentation: [www.fdrtd.com/docs](https://www.fdrtd.com/docs)
+# getting started
+
+to edit this website, create a local copy for the Gatsby development server:
+
+    gatsby new website https://github.com/fdrtd/website
+
+
+# resources
+
+* developer documentation: [fdrtd.github.io/fdrtd](https://fdrtd.github.io/fdrtd)
+* project website: [www.fdrtd.com](https://www.fdrtd.com)
 * support by email: [support@fdrtd.com](mailto:support@fdrtd.com)
 
-## this repository
 
-this repository holds the project's website
+# how to report bugs
 
-![license](https://img.shields.io/github/license/fdrtd/api)
+please [open an issue](https://github.com/fdrtd/website/issues/new)
 
-![lastupdated](https://img.shields.io/github/last-commit/fdrtd/website)
-![linesofcode](https://img.shields.io/tokei/lines/github/fdrtd/website)
-![contributors](https://img.shields.io/github/contributors/fdrtd/website)
 
-![issues](https://img.shields.io/github/issues/fdrtd/website)
-![netlify](https://img.shields.io/netlify/7f01c714-01c0-4aee-b5ef-443e768a3952)
-![online](https://img.shields.io/website?url=https%3A%2F%2Fwww.fdrtd.com)
+# license
 
-### usage
-
-`gatsby new website https://github.com/fdrtd/website`
+**fdrtd** is free and open source software under the MIT license.
+see the [`LICENSE`](https://github.com/fdrtd/website/tree/main/LICENSE) file for more information.
