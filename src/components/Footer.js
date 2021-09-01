@@ -48,6 +48,8 @@ export default function Footer(props) {
                     <StyledFooterColumn>
                         <p>
                             <img alt="badge indicating license" src="https://img.shields.io/github/license/fdrtd/website" />
+                        </p>
+                        <p>
                             <img alt="badge indicating last commit" src="https://img.shields.io/github/last-commit/fdrtd/website" /> &nbsp;&nbsp;&nbsp;&nbsp;
                         </p>
                     </StyledFooterColumn>
