@@ -110,7 +110,7 @@ export function Navbar(props) {
                 <NavDropDownSingle section={sectionSolution} />
                 <NavDropDownSingle section={sectionProject} />
                 <MenuHeading style={{marginRight: "2.5em"}}>
-                    <InternalLink url="/docs" id="nav_docs" />
+                    <ExternalLink url="https://fdrtd.github.io/fdrtd" target="_new" id="nav_docs" />
                 </MenuHeading>
                 <MenuHeading style={{marginRight: "2.5em"}}>
                     <ExternalLink url="https://github.com/fdrtd" target="_new" id="nav_github" />
