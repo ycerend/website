@@ -103,13 +103,39 @@ export const StyledPage = styled.div`
 `
 
 export const StyledContent = styled.div`
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    @media (max-width: 799px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    };
+    @media (min-width: 800px) and (max-width: 1199px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    };
+    @media (min-width: 1200px) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    };
 `
 
 export const StyledHeading = styled.h1`
+    @media (max-width: 799px) {
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    };
+    @media (min-width: 800px) and (max-width: 1199px) {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    };
+    @media (min-width: 1200px) {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    };
 `
 
 export const StyledFloatingToc = styled.div`
@@ -127,8 +153,19 @@ export const StyledFloatingToc = styled.div`
 `
 
 export const StyledCard = styled.div`
-    margin: 2rem;
-    padding: 2rem 2rem;
+    @media (max-width: 799px) {
+        margin: 1rem 0rem;
+        padding: 1rem 1rem;
+    };
+    @media (min-width: 800px) and (max-width: 1199px) {
+        margin: 1rem 1rem;
+        padding: 1rem 1rem;
+    };
+    @media (min-width: 1200px) {
+        margin: 2rem 2rem;
+        padding: 2rem 2rem;
+    };
+    display: inline-block;
     border: 1px;
     border-style: solid;
     background-color: ${props => props.theme.cardBackground};
@@ -137,10 +174,19 @@ export const StyledCard = styled.div`
 `
 
 export const StyledFigureCard = styled.div`
-    margin: 2rem;
-    margin-left: 5rem;
+    @media (max-width: 799px) {
+        margin: 1rem 0rem;
+        padding: 1rem 1rem;
+    };
+    @media (min-width: 800px) and (max-width: 1199px) {
+        margin: 1rem 1rem;
+        padding: 1rem 1rem;
+    };
+    @media (min-width: 1200px) {
+        margin: 2rem 2rem;
+        padding: 2rem 2rem;
+    };
     display: inline-block;
-    padding: 2rem 2rem;
     border: 1px;
     border-style: solid;
     border-radius: 5px;
@@ -431,8 +477,8 @@ export const StyledFooterContainer = styled.div`
 export const StyledFooterGrid = styled.div`
     font-size: small;
     display: grid;
-    @media (max-width: 800px) { grid-template-columns: repeat(2, auto) };
-    @media (min-width: 800px) and (max-width: 1500px) { grid-template-columns: repeat(3, auto) };
+    @media (max-width: 799px) { grid-template-columns: repeat(2, auto) };
+    @media (min-width: 800px) and (max-width: 1199px) { grid-template-columns: repeat(3, auto) };
     @media (min-width: 1200px) { grid-template-columns: repeat(6, auto) };
     grid-gap: 3rem;
     justify-content: space-between;
