@@ -13,7 +13,7 @@ module.exports = {
                 excludedPages: [`/src/docs`],
                 ignoredPaths: [`/src/docs`]
               }
-            },
+            }/*,
             {
               resolve: `gatsby-source-filesystem`,
               options: {
@@ -36,6 +36,6 @@ module.exports = {
                   }
                 ]
               }
-            }
+            }*/
           ]
 }
