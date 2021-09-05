@@ -166,6 +166,7 @@ export const StyledCard = styled.div`
         padding: 2rem 2rem;
     };
     display: inline-block;
+    max-width: 500px;
     border: 1px;
     border-style: solid;
     background-color: ${props => props.theme.cardBackground};
@@ -187,6 +188,7 @@ export const StyledFigureCard = styled.div`
         padding: 2rem 2rem;
     };
     display: inline-block;
+    max-width: 500px;
     border: 1px;
     border-style: solid;
     border-radius: 5px;
