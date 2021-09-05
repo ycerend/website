@@ -66,16 +66,16 @@ export const sectionSupporters = {
 
 const itemsContributors = [
     {
-        text_id: "nav_contributors_beliefs",
-        link_url: "/contributors/beliefs"
+        text_id: "nav_contributors_why",
+        link_url: "/contributors/why"
     },
     {
-        text_id: "nav_contributors_mission",
-        link_url: "/contributors/mission"
+        text_id: "nav_contributors_how",
+        link_url: "/contributors/how"
     },
     {
-        text_id: "nav_contributors_todo",
-        link_url: "/contributors/todo"
+        text_id: "nav_contributors_what",
+        link_url: "/contributors/what"
     },
     {
         text_id: "nav_contributors_resources",

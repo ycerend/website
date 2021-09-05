@@ -12,10 +12,10 @@
     "next_topic": "अगला विषय",
 
     "nav_users": "उपयोगकर्ताओं के लिए",
-    "nav_users_benefit": "मुख्य लाभ",
-    "nav_users_journey": "उपयोगकर्ता यात्रा",
     "nav_users_usecases": "उपयोग के उदाहरण",
+    "nav_users_benefit": "मुख्य लाभ",
     "nav_users_solutions": "साधन",
+    "nav_users_journey": "उपयोगकर्ता यात्रा",
     "nav_users_support": "सहयोग",
     "nav_users_start": "कैसे शुरू करें",
     
@@ -28,9 +28,9 @@
     "nav_supporters_work": "हमारे साथ काम करें",
     
     "nav_contributors": "योगदानकर्ताओं के लिए",
-    "nav_contributors_beliefs": "हमारी मान्यताएं",
-    "nav_contributors_mission": "हमारा मिशन",
-    "nav_contributors_todo": "काम के अवसर",
+    "nav_contributors_why": "योगदान क्यों",
+    "nav_contributors_how": "मदद कैसे करें",
+    "nav_contributors_what": "काम के अवसर",
     "nav_contributors_resources": "संसाधन",
     "nav_contributors_rules": "नियम और दिशानिर्देश",
     "nav_contributors_join": "टीम में शामिल हों",
@@ -62,22 +62,6 @@
     "nav_docs": "<fdrtd>डेवलपर के लिए निर्देश</fdrtd>",
 
     "nav_github": "<fdrtd>GitHub पर सोर्स कोड</fdrtd>",
-
-    "nav_clientside": "क्लाइंट-साइड डेवलपमेंट",
-    "nav_clientside_explanation": "स्पष्टीकरण",
-    "nav_clientside_tutorials": "ट्यूटोरियल",
-    "nav_clientside_howto": "कैसे करें गाइड",
-    "nav_clientside_reference": "निर्देश स्रोत",
-    "nav_clientside_library": "माइक्रोसर्विस लाइब्रेरी",
-    "nav_clientside_apibrowser": "एपीआई ब्राउज़र",
-
-    "nav_serverside": "सर्वर-साइड डेवलपमेंट",
-    "nav_serverside_explanation": "स्पष्टीकरण",
-    "nav_serverside_tutorials": "ट्यूटोरियल",
-    "nav_serverside_howto": "कैसे करें गाइड",
-    "nav_serverside_reference": "निर्देश स्रोत",
-    "nav_serverside_stub": "सर्वर उदाहरण",
-    "nav_serverside_devsecops": "मूलभूत सुरक्षा (dev-sec-ops)",
 
     "nav_language_select": "भाषा",
     "nav_language_en": "अंग्रेज़ी",

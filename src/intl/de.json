@@ -1,9 +1,9 @@
 {
     "title": "fdrtd - federated secure computing",
-    "soon_tm": "(Diese Seite ist ein Platzhalter. Der eigentliche Inhalt folgt in den nächsten Tagen.)",
-    "toc": "Inhaltsverzeichnis",
 
     "404_not_found": "404 Seite nicht gefunden",
+    "soon_tm": "(Diese Seite ist ein Platzhalter. Der eigentliche Inhalt folgt in den nächsten Tagen.)",
+    "toc": "Inhaltsverzeichnis",
 
     "general_source": "Quelle",
     "general_imagecredit": "Bildnachweis",
@@ -12,10 +12,10 @@
     "next_topic": "Nächstes Thema",
 
     "nav_users": "Für Nutzer",
-    "nav_users_benefit": "Vorteile",
-    "nav_users_journey": "User Journey",
     "nav_users_usecases": "Fallbeispiele",
+    "nav_users_benefit": "Vorteile",
     "nav_users_solutions": "Lösungen",
+    "nav_users_journey": "User Journey",
     "nav_users_support": "Support",
     "nav_users_start": "Starten Sie mit uns",
     
@@ -28,9 +28,9 @@
     "nav_supporters_work": "Arbeiten Sie mit uns",
     
     "nav_contributors": "Für Kontributoren",
-    "nav_contributors_beliefs": "Unsere Überzeugungen",
-    "nav_contributors_mission": "Unsere Mission",
-    "nav_contributors_todo": "Arbeitspakete",
+    "nav_contributors_why": "Warum beitragen",
+    "nav_contributors_how": "Wie beitragen",
+    "nav_contributors_what": "Was zu tun ist",
     "nav_contributors_resources": "Ressourcen",
     "nav_contributors_rules": "Regeln & Empfehlungen",
     "nav_contributors_join": "Treten Sie dem Team bei",
@@ -79,16 +79,6 @@
 
 
 
-    "welcome": "Willkommen",
-
-    "elevatorpitch": "Elevator Pitch",
-    "elevatorpitch_why": "<em>WARUM // </em>Wir wollen Awareness schaffen, dass digitale Zusammenarbeit auch ohne Austausch von Daten möglich ist, mittels moderner Kryptographie ('privacy preserving computation'). Wir wollen Ihnen helfen, den maximalen Wert Ihrer Daten zu heben und gleichzeitig die volle Kontrolle, Besitz und Handlungshoheit zu bewahren. Wir möchten Eintrittsbarrieren abbauen und allen ermöglichen, diese Technologien zu nutzen, indem wir die Schwierigkeiten und die Komplexität beseitigen, die bisher mit der Integration von Kryptographie in die Anwendungsentwicklung einherging.",
-    "elevatorpitch_how": "<em>WIE // </em>Unsere innovative Architektur <fdrtd>Federated Secure Computing</fdrtd> lässt sie auf einfache Weise verteilte Anwendungen klientenseitig entwickeln, während die gesamte komplexe und rechenaufwändige Kryptographie serverseitig ausgelagert wird. Die Architektur basiert auf schnellen und schlanken Microservices und wird durch einen Open API 3.0 Standard beschrieben. Als eine plug &amp; und technologieoffene Platform, orchestriert sie verschiedene Protokolle mit und ohne zentrale Instanz (z.B. Homomorphic Encryption oder Secure Multiparty Computation).",
-    "elevatorpitch_what": "<em>WAS // </em>Um Ihnen einen schnellen Start zu ermöglichen, stellen wir <fdrtd>fdrtd</fdrtd> (lies: federated) bereit, eine freie und quelloffene Bibliothek. Sie läuft nahezu überall, on premises, in der Cloud und auf dem kleinsten IoT Device. Mit ihr können sie sich mit Ihren Kooperationspartnern vernetzen unabhängig von deren Wahl eines Betriebssystems, einer Programmiersprache oder eines Technologie-Stacks. Die Bibliothek stellt einfache Referenz-Implementierungen einiger Kryptographie-Protokoller und Anwendungs-Microservices bereit.",
-    "elevatorpitch_who": "<em>WER // </em>Ihr Interesse steht im Mittelpunkt. Wir wollen alle, seien es Institutionen, Unternehmen oder Privatleute, in die Lage versetzen, großartige verteilte Anwendungen zu entwickeln. Wir wollen eine Community von Anwenderinnen und Entwickerinnen schaffen, um sich auszutauschen und voneinander zu lernen. Ob Sie die Daten Ihrer Kunden schützen wollen, Ihre Attack Surface verringern wollen, oder die verteilten Anwendungen der nächsten Generation designen, wir sind hier um zu helfen. Wir freuen uns über Ihre Anwendungsfälle, unabhängig von Industrie und Funktion, und wir möchten Ihnen helfen, sichtbare Show Cases zu schaffen. Wenn Sie unsere bescheidenen Anfänge vorranbringen können, dann begrüßen wir Sie als Kontributorinnen unseres Open Source Projektes. Machen Sie mit.",
-
-
-    
     "legal_privacy_heading": "Datenschutzerklärung",
     "legal_privacy_a": "Personenbezogene Daten",
     "legal_privacy_a1": "Personenbezogene Daten (nachfolgend zumeist nur „Daten“ genannt) werden von uns nur im Rahmen der Erforderlichkeit sowie zum Zwecke der Bereitstellung eines funktionsfähigen und nutzerfreundlichen Internetauftritts, inklusive seiner Inhalte und der dort angebotenen Leistungen, verarbeitet.",
