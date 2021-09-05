@@ -166,6 +166,7 @@ export const StyledCard = styled.div`
         padding: 2rem 2rem;
     };
     display: inline-block;
+    vertical-align: top;
     max-width: 500px;
     border: 1px;
     border-style: solid;
@@ -188,6 +189,7 @@ export const StyledFigureCard = styled.div`
         padding: 2rem 2rem;
     };
     display: inline-block;
+    vertical-align: top;
     max-width: 500px;
     border: 1px;
     border-style: solid;
