@@ -89,18 +89,19 @@
     "welcome_why_users4": "discover <ilink>/users/usecases§use cases</ilink> and <ilink>/users/benefit§benefits</ilink>, and learn what <ilink>/users/solutions§solutions</ilink> we offer to make your <ilink>/users/journey§journey</ilink> as easy and convenient as possible.",
 
     "welcome_why_supporters": "for supporters",
-    "welcome_why_supporters0": "e.g. policy makers, foundations",
+    "welcome_why_supporters0": "(e.g. policy makers, foundations)",
     "welcome_why_supporters1": "do you want to help society, science, and economy to realize the full potential of valuable data? do you want to accelerate the digital transition and the creation of data markets?",
     "welcome_why_supporters2": "but are you concerned about privacy, consent, and agency at the same time? do you want to improve data protection standards and make data infrastructure more decentral and democratic?",
     "welcome_why_supporters3": "do you want to lower barriers to entry for smaller parties and help build an ecosystem for individuals, private organizations, small businesses and institutions of the public sector alike?",
-    "welcome_why_supporters4": "discover an <ilink>/supporters/opportunity§opportunity</ilink> to create <ilink>/supporters/value§value</ilink>, and help our <ilink>/supporters/magic§technology</ilink> to make an <ilink>/supporters/impact§impact</ilink> and scale.",
+    "welcome_why_supporters4": "discover an <ilink>/supporters/opportunity§opportunity</ilink> to create <ilink>/supporters/value§value</ilink>, and help our <ilink>/supporters/magic§technology</ilink> to make an <ilink>/supporters/impact§impact</ilink> at scale.",
 
     "welcome_why_contributors": "for contributors",
-    "welcome_why_contributors0": "e.g. developers, volunteers",
+    "welcome_why_contributors0": "(e.g. developers, volunteers)",
     "welcome_why_contributors1": "are you a developer tasked to implement privacy-preserving computation? are you looking for the fastest and most convenient way to build a prototype?",
     "welcome_why_contributors2": "are you a teacher, student, or scientist looking for an easy approach to a modern key technology? do you want to build a demo or create a framework for your school or university?",
     "welcome_why_contributors3": "are you an expert in secure multiparty computation, homomorphic encryption or the like? would you like to share best practices and contribute to a free and open source project?",
-    "welcome_why_contributors4": "discover an <ilink>/supporters/opportunity§opportunity</ilink> to create <ilink>/supporters/value§value</ilink>, and help our <ilink>/supporters/magic§technology</ilink> to make an <ilink>/supporters/impact§impact</ilink> and scale.",
+    "welcome_why_contributors4": "see if you share our <ilink>/contributors/why§goals</ilink> and discover <ilink>/contributors/how§hot to contribute</ilink>. there are lots of things <ilink>/contributors/what§to do</ilink> and <ilink>/contributors/resources§resources</ilink> to help you accomplish your task.",
+
 
 
     "users_benefit": "key benefits",
