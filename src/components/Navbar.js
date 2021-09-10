@@ -5,7 +5,7 @@ import { BiWorld, BiSun } from "react-icons/bi"
 /*import { MdExpandMore } from "react-icons/md"*/
   
 import { InternalLink, ExternalLink } from "./Elements"
-import { StyledNavbarContainer, StyledNavbarGrid, StyledNavbarSection, StyledNavbarHeading, StyledNavbarDropdown } from "./Styles"
+import { StyledNavbarContainer, StyledNavbarItem, StyledNavbarSection, StyledNavbarHeading, StyledNavbarDropdown } from "./Styles"
 import { MenuSection, MenuHeading, MenuList, MenuItem } from "./Menu"
 import MenuLanguage from "./MenuLanguage"
 import MenuTheme from "./MenuTheme"
@@ -102,19 +102,35 @@ const NavDropDownSingle = (props) => {
 export function Navbar(props) {
     return (
         <StyledNavbarContainer>
-            <StyledNavbarGrid>
+            <StyledNavbarItem>
                 <NavDropDownSingle section={sectionUsers} />
+            </StyledNavbarItem>
+            <StyledNavbarItem>
                 <NavDropDownSingle section={sectionSupporters} />
+            </StyledNavbarItem>
+            <StyledNavbarItem>
                 <NavDropDownSingle section={sectionContributors} />
+            </StyledNavbarItem>
+            <StyledNavbarItem>
                 <NavDropDownSingle section={sectionTechnology} />
+            </StyledNavbarItem>
+            <StyledNavbarItem>
                 <NavDropDownSingle section={sectionSolution} />
+            </StyledNavbarItem>
+            <StyledNavbarItem>
                 <NavDropDownSingle section={sectionProject} />
+            </StyledNavbarItem>
+            <StyledNavbarItem>
                 <MenuHeading style={{marginRight: "2.5em"}}>
                     <ExternalLink url="https://fdrtd.github.io/fdrtd" target="_new" id="nav_docs" />
                 </MenuHeading>
+            </StyledNavbarItem>
+            <StyledNavbarItem>
                 <MenuHeading style={{marginRight: "2.5em"}}>
                     <ExternalLink url="https://github.com/fdrtd" target="_new" id="nav_github" />
                 </MenuHeading>
+            </StyledNavbarItem>
+            <StyledNavbarItem>
                 <Media query="(min-width: 1200px)" render={() => (
                     <div style={{display: "flex", flexDirection: "row"}}>
                         <NavDropdown toggle={<BiWorld size={20}/>} style={{paddingRight: "0.25em"}}>
@@ -125,7 +141,7 @@ export function Navbar(props) {
                         </NavDropdown>
                     </div>
                 )}/>
-            </StyledNavbarGrid>
+            </StyledNavbarItem>
         </StyledNavbarContainer>
     )
 }

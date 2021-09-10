@@ -419,18 +419,13 @@ export const MenuItem = styled.li`
 
 export const StyledNavbarContainer = styled.div`
     font-size: small;
-    display: flex;
     padding-left: 3rem;
-    align-items: flex-end;
 `
 
-export const StyledNavbarGrid = styled.div`
+export const StyledNavbarItem = styled.div`
     font-size: small;
-    display: grid;
-    @media (max-width: 799px) { grid-template-columns: repeat(2, auto) };
-    @media (min-width: 800px) and (max-width: 1199px) { grid-template-columns: repeat(3, auto) };
-    @media (min-width: 1200px) { grid-template-columns: repeat(9, auto) };
-    justify-content: space-between;
+    display: inline-block;
+    vertical-align: top;
 `
 
 export const StyledNavbarSection = styled.div`
@@ -470,7 +465,6 @@ export const StyledNavbarDropdown = styled.div`
 `
 
 export const StyledFooterContainer = styled.div`
-    display: flex;
     padding: 2rem 2rem;
     border: 0px;
     border-top: 1px;
@@ -478,17 +472,11 @@ export const StyledFooterContainer = styled.div`
     border-style: dotted;
 `
 
-export const StyledFooterGrid = styled.div`
+export const StyledFooterItem = styled.div`
     font-size: small;
-    display: grid;
-    @media (max-width: 799px) { grid-template-columns: repeat(2, auto) };
-    @media (min-width: 800px) and (max-width: 1199px) { grid-template-columns: repeat(3, auto) };
-    @media (min-width: 1200px) { grid-template-columns: repeat(6, auto) };
-    grid-gap: 3rem;
-    justify-content: space-between;
-`
-
-export const StyledFooterColumn = styled.div`
+    display: inline-block;
+    vertical-align: top;
+    margin: 2rem;
 `
 
 export const StyledToggleDark = styled.span`
