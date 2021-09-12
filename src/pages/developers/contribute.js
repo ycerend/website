@@ -1,10 +1,10 @@
 import React from "react"
 
-import { Page, Paragraph } from "/src/components/Elements"
+import { Page, Card, Paragraph, GreyButton, ExternalLink, List, Item } from "/src/components/Elements"
 
 export default function Layout() {
     return (
-        <Page id="solution_protocols">
+        <Page id="contribute">
             <Paragraph id="soon_tm" />
         </Page>
     )

@@ -4,26 +4,26 @@ import { Page, Card, Paragraph, List, Item, FigureCard, Image } from "/src/compo
 
 export default function Layout() {
     return (
-        <Page id="users_journey">
-            <Card id="users_journey_ppc">
-            <Paragraph id="users_journey_ppc1" />
-            <Paragraph id="users_journey_ppc2" />
-            <Paragraph id="users_journey_ppc3" />
+        <Page id="journey">
+            <Card id="journey_ppc">
+            <Paragraph id="journey_ppc1" />
+            <Paragraph id="journey_ppc2" />
+            <Paragraph id="journey_ppc3" />
                 <List>
-                    <Item id="users_journey_ppc4a" />
-                    <Item id="users_journey_ppc4b" />
-                    <Item id="users_journey_ppc4c" />
+                    <Item id="journey_ppc4a" />
+                    <Item id="journey_ppc4b" />
+                    <Item id="journey_ppc4c" />
                 </List>
             </Card>
-            <FigureCard id="users_journey_meeting">
-                <Paragraph id="users_journey_meeting1" />
-                <Paragraph id="users_journey_meeting2"/>
-                <Paragraph id="users_journey_meeting3"/>
+            <FigureCard id="journey_meeting">
+                <Paragraph id="journey_meeting1" />
+                <Paragraph id="journey_meeting2"/>
+                <Paragraph id="journey_meeting3"/>
                 <Image src="/about/pitch/creativeart_wavebreakmedia.png" credit="Wavebreak Media"/>
             </FigureCard>
-            <Card id="users_journey_roadblocks">
-                <Paragraph id="users_journey_roadblocks1" />
-                <Paragraph id="users_journey_roadblocks2" />
+            <Card id="journey_roadblocks">
+                <Paragraph id="journey_roadblocks1" />
+                <Paragraph id="journey_roadblocks2" />
                 <Paragraph id="supporters_problem_c4" />
                 <List>
                     <Item id="supporters_problem_c4a" />
@@ -43,26 +43,26 @@ export default function Layout() {
                     <Item id="supporters_problem_c6c" />
                 </List>
             </Card>
-            <Card id="users_journey_requirements">
-                <Paragraph id="users_journey_requirements1" />
-                <Paragraph id="users_journey_requirements2" />
-                <Paragraph id="users_journey_requirements3" />
+            <Card id="journey_requirements">
+                <Paragraph id="journey_requirements1" />
+                <Paragraph id="journey_requirements2" />
+                <Paragraph id="journey_requirements3" />
                 <List>
-                    <Item id="users_journey_requirements3a" />
-                    <Item id="users_journey_requirements3b" />
-                    <Item id="users_journey_requirements3c" />
-                    <Item id="users_journey_requirements3d" />
-                    <Item id="users_journey_requirements3e" />
-                    <Item id="users_journey_requirements3f" />
-                    <Item id="users_journey_requirements3g" />
-                    <Item id="users_journey_requirements3h" />
-                    <Item id="users_journey_requirements3i" />
-                    <Item id="users_journey_requirements3j" />
+                    <Item id="journey_requirements3a" />
+                    <Item id="journey_requirements3b" />
+                    <Item id="journey_requirements3c" />
+                    <Item id="journey_requirements3d" />
+                    <Item id="journey_requirements3e" />
+                    <Item id="journey_requirements3f" />
+                    <Item id="journey_requirements3g" />
+                    <Item id="journey_requirements3h" />
+                    <Item id="journey_requirements3i" />
+                    <Item id="journey_requirements3j" />
                 </List>
             </Card>
-            <Card id="users_journey_approach">
-                <Paragraph id="users_journey_approach1" />
-                <Paragraph id="users_journey_approach2" />
+            <Card id="journey_approach">
+                <Paragraph id="journey_approach1" />
+                <Paragraph id="journey_approach2" />
             </Card>
         </Page>
     )

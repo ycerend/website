@@ -4,7 +4,7 @@ import { Page, Paragraph } from "/src/components/Elements"
 
 export default function Layout() {
     return (
-        <Page id="users_start">
+        <Page id="start">
             <Paragraph id="soon_tm" />
         </Page>
     )
