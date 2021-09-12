@@ -100,8 +100,8 @@
 
 
     "usecases": "use cases",
-    "usescases_clinicalstudy": "rare disease research",
-    "usescases_clinicalstudy_1": "two or more university hospitals collect data on patients with a particular rare disease.",
+    "usescases_clinicalstudy": "clinical research",
+    "usescases_clinicalstudy_1": "two or more university hospitals collect data on patients with a particular disease.",
     "usescases_clinicalstudy_2": "due to privacy regulation, the hospitals are not allowed to exchange any of their data.",
     "usescases_clinicalstudy_3": "with differential privacy (DP), hospitals may run joint evaluation on their aggregate data without sharing any of it.",
     "usescases_adriving": "autonomous driving",
