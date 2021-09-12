@@ -129,12 +129,12 @@ export const StyledHeading = styled.h1`
         margin-bottom: 1rem;
     };
     @media (min-width: 800px) and (max-width: 1199px) {
-        margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-top: 0rem;
+        margin-bottom: 1.5rem;
     };
     @media (min-width: 1200px) {
-        margin-top: 2rem;
-        margin-bottom: 4rem;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
     };
 `
 
@@ -152,18 +152,23 @@ export const StyledFloatingToc = styled.div`
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 `
 
+export const StyledCards = styled.div`
+    flex-direction: row;
+    justify-content: space-around;
+`
+
 export const StyledCard = styled.div`
     @media (max-width: 799px) {
         margin: 1rem 0rem;
-        padding: 1rem 1rem;
+        padding: 1rem;
     };
     @media (min-width: 800px) and (max-width: 1199px) {
         margin: 1rem 1rem;
-        padding: 1rem 1rem;
+        padding: 1rem;
     };
     @media (min-width: 1200px) {
         margin: 2rem 2rem;
-        padding: 2rem 2rem;
+        padding: 2rem;
     };
     display: inline-block;
     vertical-align: top;
@@ -452,7 +457,7 @@ export const StyledNavbarHeading = styled.div`
 `
 
 export const StyledNavbarDropdown = styled.div`
-    top: 4.5rem;
+    top: 3rem;
     position: absolute;
     border: 1px;
     border-color: ${(props) => props.theme.textColor};

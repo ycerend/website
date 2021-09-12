@@ -2,7 +2,7 @@ import React from "react"
 import { Link as IntlLink } from "gatsby-plugin-intl"
 
 import Layout from "./Layout"
-import { StyledHeading, StyledCard, StyledFigureCard, StyledIllustration, StyledTitle, StyledSubtitle, StyledSection, StyledParagraph, StyledList, StyledItem, StyledLink, StyledThumbnailContainer, StyledThumbnail, StyledColumns, StyledCitationContainer, StyledCitationContent, StyledCitationSource, StyledFdrtd, StyledFilename, StyledImage, StyledImageContainer, StyledImageCredit, StyledButton, StyledGreyButton, StyledActiveButton, StyledFloat, StyledFigureContainer, StyledFigureContent, StyledFigureCaption, StyledFigureBox, StyledFigureRect, StyledFigureText, StyledCode, StyledFdrtdLink } from "./Styles"
+import { StyledHeading, StyledCards, StyledCard, StyledFigureCard, StyledIllustration, StyledTitle, StyledSubtitle, StyledSection, StyledParagraph, StyledList, StyledItem, StyledLink, StyledThumbnailContainer, StyledThumbnail, StyledColumns, StyledCitationContainer, StyledCitationContent, StyledCitationSource, StyledFdrtd, StyledFilename, StyledImage, StyledImageContainer, StyledImageCredit, StyledButton, StyledGreyButton, StyledActiveButton, StyledFloat, StyledFigureContainer, StyledFigureContent, StyledFigureCaption, StyledFigureBox, StyledFigureRect, StyledFigureText, StyledCode, StyledFdrtdLink } from "./Styles"
 import Translation from "./Translation"
 
 export function Page(props) {
@@ -14,6 +14,14 @@ export function Page(props) {
             </StyledHeading>
             {props.children}
         </Layout>
+    )
+}
+
+export function Cards(props) {
+    return (
+        <StyledCards>
+            {props.children}
+        </StyledCards>
     )
 }
 

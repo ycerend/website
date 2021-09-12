@@ -1,9 +1,5 @@
 const itemsUsers = [
     {
-        text_id: "nav_users_benefit",
-        link_url: "/users/benefit"
-    },
-    {
         text_id: "nav_users_usecases",
         link_url: "/users/usecases"
     },
@@ -14,6 +10,10 @@ const itemsUsers = [
     {
         text_id: "nav_users_solution",
         link_url: "/users/solution"
+    },
+    {
+        text_id: "nav_users_benefit",
+        link_url: "/users/benefit"
     },
     {
         text_id: "nav_users_start",

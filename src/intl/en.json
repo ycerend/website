@@ -56,59 +56,48 @@
 
     "welcome": "welcome",
 
+    "welcome_nutshell": "in a nutshell",
+    "welcome_nutshell_1": "<em><fdrtd>Federated Secure Computing</fdrtd></em> is an easy and conventient way to design, develop, and deploy secure distributed applications.",
+    "welcome_nutshell_2": "the modern architecture is based on fast microservices and provides strong cryptopgraphy protocols both on-premises or in the cloud.",
+    "welcome_nutshell_3": "<em><fdrtd>fdrtd</fdrtd></em> is a minimalistic reference implementation for commercial, scientific, and educational use.",
+    "welcome_nutshell_4": "the free and open source software comes with a number of built-in features and can be tailored by plug&play extensions to your use case.",
+
     "welcome_users": "for users",
-    "welcome_users0": "(e.g. managers, scientists)",
-    "welcome_users1": "does your company or organization possess <em>private, proprietary, or confidential data</em> you can not, do not want to, or must not share with others?",
-    "welcome_users2": "do you realize that data <em>would become much more meaningful and valuable</em> if you could make it available for joint analytics with partners or even competitors?",
-    "welcome_users3": "<em>with modern cryptography</em>, that has become possible. several interested parties may cooperate and achieve joint results <em>without data sharing</em>, keeping their data in their custody at all times.",
-    "welcome_users4": "discover <ilink>/users/usecases§use cases</ilink> and <ilink>/users/benefit§benefits</ilink>, and learn what <ilink>/users/solutions§solutions</ilink> we offer to make your <ilink>/users/journey§journey</ilink> as easy and convenient as possible.",
+    "welcome_users_0": "(e.g. managers, scientists)",
+    "welcome_users_1": "does your company or organization possess <em>private, proprietary, or confidential data</em> you can not, do not want to, or must not share with others?",
+    "welcome_users_2": "do you realize this data <em>would become much more meaningful and valuable</em> if you could make it available for joint analytics with partners or even competitors?",
+    "welcome_users_3": "<em>with modern cryptography</em>, secure distributed applications are a reality. several interested parties may cooperate and achieve joint results <em>without data sharing</em>, keeping their data in their custody at all times.",
+    "welcome_users_4a": "discover <ilink>/users/usecases§use cases</ilink> from healthcare to autonomous driving.",
+    "welcome_users_4b": "chart your <ilink>/users/journey§user journey</ilink> to secure distributed computing.",
+    "welcome_users_4c": "learn how our <ilink>/users/solution§solution</ilink> reduces barriers to entry.",
+    "welcome_users_4d": "evaluate <ilink>/users/benefit§key benefits</ilink> along your roadmap.",
+    "welcome_users_4e": "approach us to help you <ilink>/users/start§get started</ilink>.",
+
+    "welcome_developers": "for developers",
+    "welcome_developers_0": "(e.g. architects, open source contributors)",
+    "welcome_developers_1": "are you a developer tasked to implement privacy-preserving computation? are you looking for the fastest and most convenient way to build a prototype?",
+    "welcome_developers_2": "are you a teacher, student, or scientist looking for an easy approach to a modern key technology? do you want to build a demo or create a framework for your school or university?",
+    "welcome_developers_3": "are you an expert in secure multiparty computation, homomorphic encryption or the like? would you like to share best practices and contribute to a free and open source project?",
+    "welcome_developers_4a": "derive your <ilink>/developers/architecture§architecture</ilink> from <em><fdrtd>Federated Secure Computing</fdrtd></em> to meet your design goals.",
+    "welcome_developers_4b": "deploy <em><fdrtd>fdrtd</fdrtd></em> as a <ilink>/developers/middleware§middleware</ilink> to make devsecops simple and convenient.",
+    "welcome_developers_4c": "discover <ilink>/developers/features§features and extensions</ilink> from a range of cryptographic protocols.",
+    "welcome_developers_4d": "there are <ilink>/developers/resources§resources and support</ilink> to help you get started.",
+    "welcome_developers_4e": "you are welcome to <ilink>/developers/contribute§contribute</ilink> to our open source project.",
 
     "welcome_supporters": "for supporters",
-    "welcome_supporters0": "(e.g. policy makers, foundations)",
-    "welcome_supporters1": "do you want to help society, science, and economy to realize the full potential of valuable data? do you want to accelerate the digital transition and the creation of data markets?",
-    "welcome_supporters2": "but are you concerned about privacy, consent, and agency at the same time? do you want to improve data protection standards and make data infrastructure more decentral and democratic?",
-    "welcome_supporters3": "do you want to lower barriers to entry for smaller parties and help build an ecosystem for individuals, private organizations, small businesses and institutions of the public sector alike?",
-    "welcome_supporters4": "discover an <ilink>/supporters/opportunity§opportunity</ilink> to create <ilink>/supporters/value§value</ilink>, and help our <ilink>/supporters/magic§technology</ilink> to make an <ilink>/supporters/impact§impact</ilink> at scale.",
-
-    "welcome_contributors": "for contributors",
-    "welcome_contributors0": "(e.g. developers, volunteers)",
-    "welcome_contributors1": "are you a developer tasked to implement privacy-preserving computation? are you looking for the fastest and most convenient way to build a prototype?",
-    "welcome_contributors2": "are you a teacher, student, or scientist looking for an easy approach to a modern key technology? do you want to build a demo or create a framework for your school or university?",
-    "welcome_contributors3": "are you an expert in secure multiparty computation, homomorphic encryption or the like? would you like to share best practices and contribute to a free and open source project?",
-    "welcome_contributors4": "see if you share our <ilink>/contributors/why§goals</ilink> and discover <ilink>/contributors/how§hot to contribute</ilink>. there are lots of things <ilink>/contributors/what§to do</ilink> and <ilink>/contributors/resources§resources</ilink> to help you accomplish your task.",
-
-    "welcome_technology": "our technology",
-    "welcome_technology1": "<fdrtd>Federated Secure Computing</fdrtd> is an <ilink>/technology/federated§architecture</ilink> for privacy-preserving computation. its <ilink>/technology/design§design</ilink> renders development and deployment of distributed applications easy and convenient.",
-    "welcome_technology2": "complex and computationally demanding cryptopgraphy is offloaded to the <ilink>/technology/clientserver§server or the cloud</ilink> (separation of concerns)",
-    "welcome_technology3": "client-side business logic uses <ilink>/technology/microservices§microservices</ilink> through a transparent OpenAPI 3.0 interface (do one thing and do it well)",
-    "welcome_technology4": "secure multiparty computation, homomorphic encryption, differential privacy are provided by <ilink>/technology/platform§cryptography backends</ilink> (do not reinvent the wheel)",
-
-    "welcome_solution": "our solution",
-    "welcome_solutionx": " the open platform supports privacy-preserving protocols such as , and others. servers are assembled from a toolbox of plug & play modules. the complete functionality is accessible through lean and transparent microservices.",
-
-    "welcome_project": "our project",
+    "welcome_supporters_0": "(e.g. policy makers, foundations)",
+    "welcome_supporters_1": "do you want to help society, science, and economy to realize the full potential of valuable data? do you want to accelerate the digital transition and the creation of data markets?",
+    "welcome_supporters_2": "but are you concerned about privacy, consent, and agency at the same time? do you want to improve data protection standards and make data infrastructure more decentral and democratic?",
+    "welcome_supporters_3": "do you want to lower barriers to entry for smaller parties and help build an ecosystem for individuals, private organizations, small businesses and institutions of the public sector alike?",
+    "welcome_supporters_4a": "follow the <ilink>/supporters/news§news</ilink> about our project.",
+    "welcome_supporters_4b": "read our <ilink>/supporters/pitch§pitch</ilink> to empower everyone to use privacy-preserving computation.",
+    "welcome_supporters_4c": "get to know other supporters in the <ilink>/supporters/acknowledgements§acknowledgements</ilink>.",
+    "welcome_supporters_4d": "find press clippings and articles in the <ilink>/supporters/media§media</ilink> section.",
+    "welcome_supporters_4e": "reach out and <ilink>/supporters/contact§contact</ilink> the team.",
 
 
 
 
-
-    "benefit": "key benefits",
-    "benefit_empowerment": "<em>empowerment</em>",
-    "benefit_empowerment1": "we want everyone, not only cryptography experts, to be able to design, develop, deploy and manage secure distributed applications.",
-    "benefit_empowerment1a": "<em>junior skills:</em> for client-side development, very basic programming skills suffice. client-side developers do not deal with cryptography at all.",
-    "benefit_empowerment1b": "<em>choose your tools:</em> use whatever programming language you prefer, choose your own tech stack, bring your own toolsets. they will be fine.",
-    "benefit_empowerment1c": "<em>for education:</em> our simple solution is well suited for propaedeutic exploration, student projects, and citizen science. learn privacy by doing.",
-    "benefit_convenience": "<em>convenience</em>",
-    "benefit_convenience1": "our technology is not yet another privacy-preserving computation framework. rather, it is a convenient middleware to run existing frameworks in the simplest manner possible:",
-    "benefit_convenience1a": "<em>separation of concerns:</em> a client-server architecture separates the business logic (client-side) from the computing intensive cryptography (server-side).",
-    "benefit_convenience1b": "<em>transparency:</em> application developers interact through a transparent and minimal API. control flow and data flow in peer-to-peer protocols remain transparent.",
-    "benefit_convenience1c": "<em>efficiency:</em> lean and fast microservices cater to actual computing needs, without the bloat of universal monolithic solutions.",
-    "benefit_convenience1d": "<em>ease of use:</em> in a modern DevSecOps and CI/CD approach, designing, implementing, deploying and managing a solution becomes easy and straightforward.",
-    "benefit_compatibility": "<em>compabibility & interoperability</em>",
-    "benefit_compatibility1": "compabibility & interoperability",
-    "benefit_compatibility1a": "<em>standardized:</em> a free OpenAPI 3.0 standard defines the interface while remaining technology neutral and open for any protocol and 3rd party vendors.",
-    "benefit_compatibility1b": "<em>runs everywhere:</em> our solution is not dependent on any tech stack, but runs everywhere, from a large cloud infrastructure to on-premises data centers, from workstations to laptops, from smartphones to IoT devices.",
-    "benefit_compatibility1c": "<em>easy to integrate:</em> our solution may be implemented step by step, microservice by microservice, both greenfield or into existing legacy codebase.",
 
     "usecases": "use cases",
 
@@ -147,6 +136,24 @@
 
     "solution": "solution",
     
+    "benefit": "key benefits",
+    "benefit_empowerment": "<em>empowerment</em>",
+    "benefit_empowerment1": "we want everyone, not only cryptography experts, to be able to design, develop, deploy and manage secure distributed applications.",
+    "benefit_empowerment1a": "<em>junior skills:</em> for client-side development, very basic programming skills suffice. client-side developers do not deal with cryptography at all.",
+    "benefit_empowerment1b": "<em>choose your tools:</em> use whatever programming language you prefer, choose your own tech stack, bring your own toolsets. they will be fine.",
+    "benefit_empowerment1c": "<em>for education:</em> our simple solution is well suited for propaedeutic exploration, student projects, and citizen science. learn privacy by doing.",
+    "benefit_convenience": "<em>convenience</em>",
+    "benefit_convenience1": "our technology is not yet another privacy-preserving computation framework. rather, it is a convenient middleware to run existing frameworks in the simplest manner possible:",
+    "benefit_convenience1a": "<em>separation of concerns:</em> a client-server architecture separates the business logic (client-side) from the computing intensive cryptography (server-side).",
+    "benefit_convenience1b": "<em>transparency:</em> application developers interact through a transparent and minimal API. control flow and data flow in peer-to-peer protocols remain transparent.",
+    "benefit_convenience1c": "<em>efficiency:</em> lean and fast microservices cater to actual computing needs, without the bloat of universal monolithic solutions.",
+    "benefit_convenience1d": "<em>ease of use:</em> in a modern DevSecOps and CI/CD approach, designing, implementing, deploying and managing a solution becomes easy and straightforward.",
+    "benefit_compatibility": "<em>compabibility & interoperability</em>",
+    "benefit_compatibility1": "compabibility & interoperability",
+    "benefit_compatibility1a": "<em>standardized:</em> a free OpenAPI 3.0 standard defines the interface while remaining technology neutral and open for any protocol and 3rd party vendors.",
+    "benefit_compatibility1b": "<em>runs everywhere:</em> our solution is not dependent on any tech stack, but runs everywhere, from a large cloud infrastructure to on-premises data centers, from workstations to laptops, from smartphones to IoT devices.",
+    "benefit_compatibility1c": "<em>easy to integrate:</em> our solution may be implemented step by step, microservice by microservice, both greenfield or into existing legacy codebase.",
+
     "start": "how to start",
 
 
@@ -154,14 +161,42 @@
 
 
     "architecture": "design & architecture",
-
+    "architecture_clientserver": "client & server architecture",
+    "architecture_clientserver_a": "layers of the client & server stack",
+    
+    
     "middleware": "middleware & solution",
 
     "features": "features & extensions",
 
     "resources": "resources & support",
-
+    "resources_support": "support",
+    "resources_support_1": "if you need help using our source code or want to give feedback, please write an email to:",
+    "resources_sourcecode": "source code",
+    "resources_sourcecode_1": "find the repositories at <elink>https://github.com/fdrtd§github.com/fdrtd</elink>",
+    "resources_documentation": "documentation",
+    "resources_documentation_1": "find the documentation at <elink>https://fdrtd.github.io/fdrtd§fdrtd.github.io/fdrtd</elink>",
+    "resources_slack": "Slack",
+    "resources_slack_1": "join our Slack workspace at <elink>https://fdrtd.slack.com§fdrtd.slack.com</elink>",
+    "resources_literature": "literature",
+    "resources_literature_1": "Cramer R, Damgård IB, Nielsen JB: <em>Secure Multiparty Computation and Secret Sharing</em>. Cambridge 2015. <elink>https://doi.org/10.1017/CBO9781107337756§doi.org/10.1017/CBO9781107337756</elink>",
+    
     "contribute": "how to contribute",
+    "contribute_license": "license",
+    "contribute_license1": "<fdrtd>fdrtd</fdrtd> is free and open source software.",
+    "contribute_license2": "this extends to the repositories located at <elink>https://github.com/fdrtd§https://github.com/fdrtd</elink>.",
+    "contribute_license3": "an appropriate <elink>https://opensource.org/licenses/MIT§MIT license</elink> is included in a <filename>LICENSE</filename> file in the root directory of all of these repositories.",
+    "contribute_contributions": "contributions policy",
+    "contribute_contributions1": "the project accepts contributions exclusively through <elink>https://github.com§GitHub</elink>. as per their terms of service,",
+    "contribute_contributions2": "<elink>https://docs.github.com/en/github/site-policy/github-terms-of-service#6-contributions-under-repository-license§GitHub   terms of service</elink>",
+    "contribute_contributions3": "'Whenever you add Content to a repository containing notice of a license, you license that Content under the same terms, and you agree that you have the right to license that Content under those terms.'",
+    "contribute_contributions4": "this widely-accepted norm in the open source community reflects what both contributors and users of an open source project will expect and assume. the advantage to you, the contributor, is that the project does not need to burden you with paperwork and separate contributor license agreements (CLAs) or even copyright transfer agreements (CTAs).",
+    "contribute_contributions5": "note that while you grant a license to use your contribution, you do not sign away copyright, but in fact retain full copyright for your own contribution. if you want to expressively assert your copyright by being listed in the project's <filename>CONTRIBUTORS</filename> files, please include an edit to this effect with your pull request.",
+    "contribute_styleguide": "style guide",
+    "contribute_styleguide_python": "<em>Python</em>",
+    "contribute_styleguide_python1": "we are using lint. GitHub Actions will publish a code quality score whenever code is pushed.",
+    "contribute_vulnerabilities": "vulnerabilities",
+    "contribute_vulnerabilities_1": "if you found a vulnerability in our source code, please open an issue on <elink>https://github.com/fdrtd§GitHub</elink> and mark it as critical / vulnerability.",
 
 
 
@@ -198,7 +233,19 @@
     "news_2020-03-02_d": "the result was exact to machine precision and took 4.5 seconds to compute, compared to 1,229 seconds of the original solution (speedup 10^2 ... 10^3).",
     
     "pitch": "pitch",
-
+    "pitch_beliefs": "our beliefs",
+    "pitch_beliefs1": "we believe that it is only through <em>collaboration, not isolation</em>, that society, researchers, corporations, and individuals will make best use of their proprietary data and capture their full value.",
+    "pitch_beliefs2": "we understand that <em>privacy-preserving computation</em> enables efficient collaboration while still preserving control, custody, trust, agency, consent, and privacy.",
+    "pitch_beliefs3": "we envision transformative use cases for <fdrtd>federated secure computing</fdrtd> throughout industries and practises, whenever one must not, want not or can not share their data with partners and competitors.",
+    "pitch_beliefs4": "we are convinced <em>decentralised data storage and peer-to-peer data flow</em> will make for faster, better, more resilient and ultimatively more sustainable and more democratic information infrastructure.",
+    "pitch_beliefs5": "we <em>challenge current barriers</em> to entry and we do not accept that privacy-preserving computation should be difficult to develop, exclusive and expensive to own, or cumbersome to operate.",
+    "pitch_mission": "our mission",
+    "pitch_mission1": "we <em>empower everyone</em> to engage in privacy-preserving computation and help them implement their use cases.",
+    "pitch_mission2": "we advocated <fdrtd>Federated Secure Computing</fdrtd>, a free and open standard and a <em>modern architecture</em> to render secure computing easy and convenient.",
+    "pitch_mission3": "we provide <fdrtd>fdrtd</fdrtd>, our <em>free and open source</em> reference implementation as a starting point for feature-rich solutions.",
+    "pitch_mission4": "we foster an <em>ecosystem and a community</em> for users and developers to share and learn.",
+    "pitch_mission5": "we help you design <em>convincing show cases</em> and support you in building secure applications.",
+    
     "acknowledgements": "acknowledgements",
     "acknowledgements_sponsors": "sponsors and supporters",
     "acknowledgements_sponsors_": "the <fdrtd>fdrtd</fdrtd> project would like to express its heartfelt thanks to its sponsors and supporters:",
@@ -214,18 +261,22 @@
     "acknowledgements_vscode": "<elink>https://code.visualstudio.com§Visual Studio Code</elink> was used for website design and editing",
 
     "media": "press & media",
+    "media_clippings": "press clippings",
+    "media_clippings_1": "↗ <elink>https://www.aerzteblatt.de/nachrichten/103090/Innovatives-IT-Verfahren-soll-sensible-Daten-in-der-Krebsforschung-schuetzen§Ärzteblatt: Innovatives IT-Verfahren soll sensible Daten in der Krebsforschung schützen</elink>",
+    "media_releases": "press releases",
+    "media_releases_1": "↗ <elink>https://www.stifterverband.org/pressemitteilungen/2020_11_09_wirkung_hoch_100§Stifterverband: Das sind die 100 besten Ideen Deutschlands für Bildung, Wissenschaft und Innovation</elink>",
+    "media_releases_2": "↗ <elink>https://www.stifterverband.org/pressemitteilungen/2021_05_31_wirkung_hoch_100§Stifterverband: Jubiläumsinitiative des Stifterverbandes startet mit 30 Projekten in zweite Förderphase</elink>",
     "media_downloads": "downloads",
     "media_logo_dark": "logo for dark backgrounds (<dlink>/home/media/logo_dark.png§download</ilink>, 406 x 406 pixels, 14 KB)",
     "media_logo_light": "logo for light backgrounds (<dlink>/home/media/logo_light.png§download</ilink>, 406 x 406 pixels, 12 KB)",
 
     "contact": "contact",
-    "contact_support": "support",
-    "contact_support1": "if you need help using our software, if you want advise on building your showcase, or if you want to give feedback, please write an email to:",
-    "contact_other": "other inquiries",
-    "contact_other1": "<em>project lead:</em> Hendrik Ballhausen, <elink>mailto:ballhausen@bytesforlife.com§ballhausen@bytesforlife.com</elink>",
-    "contact_other2": "<em>community manager:</em> Elisabeth Bießlich-Keller, <elink>mailto:e.keller@med.uni-muenchen.de§e.keller@med.uni-muenchen.de</elink>",
-    "contact_vulnerabilities": "vulnerabilities",
-    "contact_vulnerabilities1": "if you found a vulnerability in our open source code, please open an issue on <elink>https://github.com/fdrtd§GitHub</elink> and mark it as critical / vulnerability.",
+    "contact_coordinator": "coordinator",
+    "contact_coordinator_1": "Hendrik Ballhausen",
+    "contact_coordinator_2": "<elink>mailto:ballhausen@bytesforlife.com§ballhausen@bytesforlife.com</elink>",
+    "contact_communitymanager": "community manager",
+    "contact_communitymanager_1": "Elisabeth Bießlich-Keller",
+    "contact_communitymanager_2": "<elink>mailto:e.keller@med.uni-muenchen.de§e.keller@med.uni-muenchen.de</elink>",
     
 
 
