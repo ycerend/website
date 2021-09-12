@@ -12,8 +12,8 @@ const itemsUsers = [
         link_url: "/users/journey"
     },
     {
-        text_id: "nav_users_solutions",
-        link_url: "/users/solutions"
+        text_id: "nav_users_solution",
+        link_url: "/users/solution"
     },
     {
         text_id: "nav_users_start",
