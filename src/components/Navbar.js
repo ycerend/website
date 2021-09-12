@@ -11,7 +11,7 @@ import MenuLanguage from "./MenuLanguage"
 import MenuTheme from "./MenuTheme"
 import Translation from "./Translation"
 
-import { sectionUsers, sectionContributors, sectionSolution, sectionSupporters, sectionTechnology, sectionProject } from "/src/data/navigation"
+import { sectionUsers, sectionDevelopers, sectionSupporters } from "/src/data/navigation"
 
 /*const NavbarIcon = (props) => {
     return(
@@ -106,19 +106,10 @@ export function Navbar(props) {
                 <NavDropDownSingle section={sectionUsers} />
             </StyledNavbarItem>
             <StyledNavbarItem>
+                <NavDropDownSingle section={sectionDevelopers} />
+            </StyledNavbarItem>
+            <StyledNavbarItem>
                 <NavDropDownSingle section={sectionSupporters} />
-            </StyledNavbarItem>
-            <StyledNavbarItem>
-                <NavDropDownSingle section={sectionContributors} />
-            </StyledNavbarItem>
-            <StyledNavbarItem>
-                <NavDropDownSingle section={sectionTechnology} />
-            </StyledNavbarItem>
-            <StyledNavbarItem>
-                <NavDropDownSingle section={sectionSolution} />
-            </StyledNavbarItem>
-            <StyledNavbarItem>
-                <NavDropDownSingle section={sectionProject} />
             </StyledNavbarItem>
             <StyledNavbarItem>
                 <MenuHeading style={{marginRight: "2.5em"}}>
