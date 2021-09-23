@@ -6,6 +6,11 @@ import { Page, Card, Paragraph } from "/src/components/Elements"
 export default function Layout() {
     return (
         <Page id="news">
+            <Card id="news_2021-09-21" heading={<FormattedDate value="2021-09-21" />}>
+                <Paragraph id="news_2021-09-21_a" />
+                <Paragraph id="news_2021-09-21_b" />
+                <Paragraph id="news_2021-09-21_c" />
+            </Card>
             <Card id="news_2021-05-31" heading={<FormattedDate value="2021-05-31" />}>
                 <Paragraph id="news_2021-05-31_a" />
                 <Paragraph id="news_2021-05-31_b" />
