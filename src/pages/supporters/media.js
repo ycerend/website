@@ -13,6 +13,10 @@ export default function Layout() {
                 </Paragraph>
             </Card>
             <Card id="media_releases">
+            <Paragraph>
+                    <FormattedDate value="2021-09-22"/><br />
+                    <Line id="media_releases_4"/>
+                </Paragraph>
                 <Paragraph>
                     <FormattedDate value="2021-09-21"/><br />
                     <Line id="media_releases_3"/>
