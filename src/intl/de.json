@@ -62,7 +62,25 @@
     "media_logo_dark": "Logo für dunklen Hintergrund (<dlink>/home/media/logo_dark.png§Download</ilink>, 406 x 406 pixels, 14 KB)",
     "media_logo_light": "Logo für hellen Hintergrund (<dlink>/home/media/logo_light.png§Download</ilink>, 406 x 406 pixels, 12 KB)",
 
-    
+     "media": "press & media",
+    "media_clippings": "press clippings",
+    "media_clippings_1": "↗ <elink>https://www.aerzteblatt.de/nachrichten/103090/Innovatives-IT-Verfahren-soll-sensible-Daten-in-der-Krebsforschung-schuetzen§Ärzteblatt: Innovatives IT-Verfahren soll sensible Daten in der Krebsforschung schützen</elink>",
+    "media_releases": "press releases",
+    "media_releases_1": "↗ <elink>https://www.stifterverband.org/pressemitteilungen/2020_11_09_wirkung_hoch_100§Stifterverband: Das sind die 100 besten Ideen Deutschlands für Bildung, Wissenschaft und Innovation</elink>",
+    "media_releases_2": "↗ <elink>https://www.stifterverband.org/pressemitteilungen/2021_05_31_wirkung_hoch_100§Stifterverband: Jubiläumsinitiative des Stifterverbandes startet mit 30 Projekten in zweite Förderphase</elink>",
+    "media_releases_3": "↗ <elink>https://www.stifterverband.org/pressemitteilungen/2021_09_21_wirkung_hoch_100§Stifterverband: Eine Million Euro für die zehn besten Ideen in Bildung, Wissenschaft und Innovation</elink>",
+    "media_releases_4": "↗ <elink>https://www.lmu.de/de/newsroom/newsuebersicht/news/lmu-forschende-mit-ideen-zu-innovation-und-bildung-erfolgreich.html§LMU: Forschende mit Ideen zu Innovation und Bildung erfolgreich</elink>",
+    "media_downloads": "downloads",
+    "media_logo_dark": "logo for dark backgrounds (<dlink>/home/media/logo_dark.png§download</ilink>, 406 x 406 pixels, 14 KB)",
+    "media_logo_light": "logo for light backgrounds (<dlink>/home/media/logo_light.png§download</ilink>, 406 x 406 pixels, 12 KB)",
+
+    "contact": "Kontakt",
+    "contact_coordinator": "Koordinator",
+    "contact_coordinator_1": "Hendrik Ballhausen",
+    "contact_coordinator_2": "<elink>mailto:ballhausen@bytesforlife.com§ballhausen@bytesforlife.com</elink>",
+    "contact_communitymanager": "Community Managerin",
+    "contact_communitymanager_1": "Elisabeth Bießlich-Keller",
+    "contact_communitymanager_2": "<elink>mailto:e.keller@med.uni-muenchen.de§e.keller@med.uni-muenchen.de</elink>",
     
     
     "legal_privacy_heading": "Datenschutzerklärung",
